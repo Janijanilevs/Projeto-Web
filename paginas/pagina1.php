@@ -1,6 +1,6 @@
-<?php
+<!--<?php
     include "logic.php";
-?>
+?>-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,11 +12,11 @@
 </head>
 <body>
     <header>
-        <h1 class="logo">
+        <div class="logo">
             <a href="pagina1.php" title="Consulta+">
-                <img src="img/logo.png" alt="Consulta+">
+                <img src="../img/logo.png" alt="Consulta+">
             </a>
-        </h1>
+        </div>
     </header>
 
     <main>
