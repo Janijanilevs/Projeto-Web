@@ -12,7 +12,11 @@
 </head>
 <body>
     <header>
-        <h2>Hello Word</h2>
+        <h1 class="logo">
+            <a href="pagina1.php" title="Consulta+">
+                <img src="img/logo.png" alt="Consulta+">
+            </a>
+        </h1>
     </header>
 
     <main>
