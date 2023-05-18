@@ -35,6 +35,41 @@
             </form>
             <img src="../img/medicos.png" alt="médicos do Consulta+">
         </section>
+
+        <section id="detalhes-empresa">
+            <h2 class="titdet">Quais são os benefícios da Consulta+?</h2>
+            <div class="container-itens">
+                <article class="item">
+                    <h3>Agenda Online</h3>
+                    <img src="../img/check.png" alt="check">
+                </article>
+                <article class="item">
+                    <h3>Especialidades Médicas Diversas</h3>               
+                    <img src="../img/icon.png" alt="doutor">
+                </article>
+                <article class="item">
+                    <h3>Fácil Implementação</h3>
+                    <img src="../img/check.png" alt="check">
+                </article>
+            </div>
+            <a href="" class="azul">Saiba mais sobre nós</button>
+
+        </section>
+        <!--
+        <section id="info">
+            <div>
+                <h3>Você sabia?</h3>
+                <p>A Consulta+ possui planos a partir de apenas R$109,90.</p>
+            </div>
+            <div>
+                <p>Aceitamos diversos convênios: UNIMED, BRADESCO SAÚDE, ONE HEALTH e muito mais!</p>
+            </div>
+            <div>
+                <h3>Quer só tirar uma dúvida com nossos médicos?</h3>
+                <a href="" class="azul">Saiba mais sobre nós</button>
+            </div>
+        </section>
+-->
     </main>
 
     <footer>

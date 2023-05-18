@@ -29,6 +29,16 @@ img {
     font-family: Nunito;
 }
 
+#detalhes-empresa .titdet {
+    color: black;
+    font-size: 1.25rem;
+    line-height: 90%;
+    font-family: Nunito;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
 #topo {
     background-color: white;
     height: 20vh;
@@ -140,4 +150,46 @@ img {
 
 #banner form input:focus {
     border: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+#detalhes-empresa {
+    background-color: white;
+    height: 65vh;
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 2.118rem;
+    color: black;
+    font-family: Nunito;
+}
+
+.container-itens {
+    display: flex;
+    min-height: 45%;
+    margin-bottom: 2rem;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.item {
+    display: grid;
+}
+
+.container-itens .item img {
+    margin-top: 130px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: white;
+    padding: .5rem;
+}
+
+.container-itens .item {
+    width: 30%;
+    background-color: white;
+    border: 1px solid #7a8c89;
+    border-radius: 1rem;
 }
