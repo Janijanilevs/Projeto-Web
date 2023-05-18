@@ -57,21 +57,22 @@
              </div>
 
         </section>
-        <!--
+    
         <section id="info">
             <div>
                 <h3>Você sabia?</h3>
                 <p>A Consulta+ possui planos a partir de apenas R$109,90.</p>
             </div>
             <div>
-                <p>Aceitamos diversos convênios: UNIMED, BRADESCO SAÚDE, ONE HEALTH e muito mais!</p>
+                <h3>Aceitamos diversos convênios:</h3>
+                <p>UNIMED, BRADESCO SAÚDE, ONE HEALTH e muito mais!</p>
             </div>
             <div>
                 <h3>Quer só tirar uma dúvida com nossos médicos?</h3>
-                <a href="" class="azul">Saiba mais sobre nós</button>
+                <a href="" class="azul">Faça sua pergunta</button>
             </div>
         </section>
--->
+
     </main>
 
     <footer>
