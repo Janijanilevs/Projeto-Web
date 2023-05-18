@@ -52,7 +52,9 @@
                     <img src="../img/check.png" alt="check">
                 </article>
             </div>
-            <a href="" class="azul">Saiba mais sobre nós</button>
+            <div class="botao-saibamais">
+                 <a href="" class="botaozinho">Saiba mais sobre nós<a>
+             </div>
 
         </section>
         <!--
