@@ -11,12 +11,18 @@
     <link href="../estilos/estilo.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="pagina1.php" title="Consulta+">
-                <img src="../img/logo.png" alt="Consulta+">
-            </a>
+    <header id="topo">
+        <h1 class="logo-site">Consulta+</h1>
+        <div class="botao">
+           <a href="" class="botao-cadastro-login">Entrar/Cadastrar<a>
         </div>
+        <nav id="menu">
+            <ul>
+                <li> <a href="" title="perguntas">Pergunte aos profissionais</a></li>
+                <li><a href="" title="contato">Contato</a></li>
+                <li><a href="" title="ajuda">Ajuda</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>

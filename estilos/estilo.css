@@ -3,3 +3,69 @@
     margin: 0;
     padding: 0;
 }
+
+img {
+    max-width: 100%;
+}
+
+#topo {
+    background-color: white;
+    height: 20vh;
+    padding: 1rem;
+    margin-top: 0.3rem;
+    border-bottom: 1px solid #d4cdc5;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#topo .logo-site {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.logo-site {
+    background-image: url(../img/logo-site.png);
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    text-indent: -100000000000000000000000000000px;
+}
+
+.botao {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.botao a {
+    padding: .5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.botao-cadastro-login {
+    color: #f9fadc;
+    background-color: #0e9ac5;
+    border-radius: 10px;
+}
+
+.botao-cadastro-login:hover {
+    background-color: rgb(36, 66, 148);
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+#menu a {
+    color: #7a8c89;
+    text-decoration: none;
+}
