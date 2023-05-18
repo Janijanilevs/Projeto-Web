@@ -40,7 +40,7 @@
             <h2 class="titdet">Quais são os benefícios da Consulta+?</h2>
             <div class="container-itens">
                 <article class="item">
-                    <h3>Agenda Online</h3>
+                    <h3>Agenda Online Flexível</h3>
                     <img src="../img/check.png" alt="check">
                 </article>
                 <article class="item">
