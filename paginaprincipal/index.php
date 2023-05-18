@@ -12,7 +12,7 @@
 </head>
 <body>
     <header id="topo">
-        <h1 class="logo-site">Consulta+</h1>
+        <a href="index.php" class="logo-site">Consulta+</a>
         <div class="botao">
            <a href="" class="botao-cadastro-login">Entrar/Cadastrar<a>
         </div>
