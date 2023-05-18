@@ -10,8 +10,15 @@ img {
 
 .titulo {
     color: #0E1344;
-    font-size: 4rem;
-    line-height: 92%;
+    font-size: 3rem;
+    line-height: 90%;
+    margin-top: 20px;
+}
+
+.sub {
+    color: black;
+    font-size: 1.25rem;
+    margin-top: 60px;
 }
 
 #topo {
