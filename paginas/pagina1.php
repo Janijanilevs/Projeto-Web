@@ -1,6 +1,6 @@
-<!--<?php
-    include "logic.php";
-?>-->
+<?php
+    include "../logic.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,18 +11,8 @@
     <link href="../estilos/estilo.css" rel="stylesheet">
 </head>
 <body>
-    <header id="topo">
-        <h1 class="logo-site">Consulta+</h1>
-        <div class="botao">
-           <a href="" class="botao-cadastro-login">Entrar/Cadastrar<a>
-        </div>
-        <nav id="menu">
-            <ul>
-                <li> <a href="" title="perguntas">Pergunte aos profissionais</a></li>
-                <li><a href="" title="contato">Contato</a></li>
-                <li><a href="" title="ajuda">Ajuda</a></li>
-            </ul>
-        </nav>
+    <header>
+        <h2>teste 2</h2>
     </header>
 
     <main>
