@@ -8,6 +8,12 @@ img {
     max-width: 100%;
 }
 
+.titulo {
+    color: #0E1344;
+    font-size: 4rem;
+    line-height: 92%;
+}
+
 #topo {
     background-color: white;
     height: 20vh;
@@ -68,4 +74,28 @@ img {
 #menu a {
     color: #7a8c89;
     text-decoration: none;
+}
+
+#menu li {
+    height: 40%;
+}
+
+#menu li:hover {
+    border-bottom: 2px solid #0e9ac5;
+}
+
+#banner {
+    background-color: #A8D6F0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 300px;
+    padding: 0 1rem;
+}
+
+#banner>img {
+    grid-row: 1/5;
+    grid-column: 2/3;
+    margin-left: 160px;
+    margin-top: 30px;
 }

@@ -26,7 +26,15 @@
     </header>
 
     <main>
-
+        <section id="banner">
+            <h2 class="titulo">O QUE VOCÊ GOSTARIA DE AGENDAR?</h2>
+            <h3>AGENDE SUAS CONSULTAS E TELECONSULTAS RÁPIDO E FÁCIL.</h3>
+            <form action="" method="get">
+                <input type="search" name="agendamento" placeholder="O que gostaria de agendar?">
+                <button><img src="../img/busca.png"></button>
+            </form>
+            <img src="../img/medicos.png" alt="médicos do Consulta+">
+        </section>
     </main>
 
     <footer>
