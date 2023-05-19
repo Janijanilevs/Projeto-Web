@@ -83,7 +83,7 @@ img {
 
 .botao-cadastro-login:hover {
     background-color: rgb(36, 66, 148);
-    transform: scale(1.02);
+    transform: scale(1.02,);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     opacity: 0.8;
 }
@@ -162,7 +162,7 @@ img {
 #detalhes-empresa {
     background-color: white;
     height: 65vh;
-    padding: 1rem;
+    padding: 3rem 3rem 3rem 3rem;
 }
 
 .container-itens {
@@ -225,7 +225,7 @@ img {
     margin-left: 430px;
 }
 
-.botao-saibamais a {
+.botaozinho{
     padding: .5rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -234,6 +234,7 @@ img {
 }
 
 #extra{
+    padding-top: 2rem;
     background-color:rgb(1, 7, 88);
     height: 45vh;
 }
