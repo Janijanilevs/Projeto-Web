@@ -237,10 +237,24 @@ img {
     padding-top: 2rem;
     background-color:rgb(1, 7, 88);
     height: 45vh;
+    display: flex;
+    justify-content: center;
 }
 
+#container-extra{
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 15rem 20rem 24rem;
+    height: 100%;
+    width: 95%;
+}
 
-
+.item-extra{
+    height: 100%;
+    color: white;
+    font-size: 30px;
+}
 
 
 

@@ -67,13 +67,19 @@
             </section>
 
             <section id="extra">
-                <h2>Voçê sabia?</h2>
-                <h3>O Consulta+ possui planos a partir de apenas R$109,90.</h3>
-
-                <h3>Aceitamos diversos convênios: UNIMED,BRADESCO SAÚDE, ONE HEALTH E muito mais!</h3>
-
-                <h2>Quer tirar uma duvida com nossos medicos?</h2>
-                <h2>FAÇA SUA PERGUNTA</h2>
+                <div id="container-extra">
+                    <div class="item-extra" id="item-1">
+                        <h2>Voçê sabia?</h2>
+                        <h3>O Consulta+ possui planos a partir de apenas R$109,90.</h3>
+                    </div>
+                    <div class="item-extra" id="item-2">
+                        <h3>Aceitamos diversos convênios: UNIMED,BRADESCO SAÚDE, ONE HEALTH E muito mais!</h3>
+                    </div>
+                    <div class="item-extra" id="item-3">
+                        <h2>Quer tirar uma duvida com nossos medicos?</h2>
+                        <h2>FAÇA SUA PERGUNTA</h2>
+                    </div>
+                </div>
             </section>
 
     
