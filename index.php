@@ -12,7 +12,7 @@
     </head>
     <body>
         <header id="topo">
-            <a href="index1.php" class="logo-site">Consulta+</a>
+            <a href="index.php" class="logo-site">Consulta+</a>
             <div class="botao">
                <a href="" class="botao-cadastro-login">Entrar/Cadastrar<a>
             </div>
@@ -29,15 +29,25 @@
             <section id="banner">
                     <h2 class="titulo">O QUE VOCÊ GOSTARIA DE AGENDAR?</h2>
                     <h3 class="sub">AGENDE SUAS CONSULTAS E TELECONSULTAS RÁPIDO E FÁCIL.</h3>
-                    <form action="" method="get">
+                 
+                    <form action="" method="get" id="form1">
                         <button><img src="img/busca.png"></button>
-                        <input type="search" name="agendamento" placeholder="  O que gostaria de agendar?">
+                        <select class="area" name="agendamento">
+                            <option disabled selected value="">Qual especialidade você procura?</option>
+                            <option value="1">Cirurgia Plastica</option>
+                            <option value="2">Odontologia</option>
+                            <option value="3">Nutrição</option>
+                            <option value="4">Ginecologia</option>
+                            <option value="5">Cardiologia</option>
+                        </select>
                     </form>
                     <img src="img/medicos.png" alt="médicos do Consulta+">
             </section>
         
             <section id="detalhes-empresa">
+                <br>
                 <h2 class="titdet">Quais são os benefícios da Consulta+?</h2>
+                <br>
                 <div class="container-itens">
                     <article class="item">
                         <h3>Agenda Online Flexível</h3>
