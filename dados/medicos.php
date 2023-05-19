@@ -108,5 +108,25 @@ $medicos =[
         "foto" => "https://i.pinimg.com/736x/4a/ca/c4/4acac4216f3d036467cc8cd1f720c993.jpg",
         "formação" => "Formada em nutrição pela IFRS, com sua especialidade Nutrição ortomolecular, trazendo análises terapêuticas das deficiências de nutrientes e das características genéticas do paciente"
       ],
+/*----------------------------Parte dos Ginecologistas-------------------------------------------------------------------------------*/
+      [
+        "nome" => "Luiz Miguel",
+        "especialidade" => " Ginecologista",
+        "foto" => "https://i.pinimg.com/564x/4a/b9/3e/4ab93ecfc2c66ed78eda01b78aa17ded.jpg",
+        "formação" => "Formada em medicina pela UFPEL, com sua especialidade Ginecologia endócrina, tratando de questões hormonais e reprodutivos, desde o intra-útero até a sensibilidade, com muita confiaça e descrição"
+      ],
 
+      [
+        "nome" => "Mariane Melo",
+        "especialidade" => " Ginecologista",
+        "foto" => "https://i.pinimg.com/564x/48/0c/a2/480ca2ea5ee29542ea14d7a2bceeedb6.jpg",
+        "formação" => "Formada em medicina pela UFPA, com sua especialidade Ginecologia, tratando de questões fetais, cuidando diretamente da gestante e do feto, desde a sua geração até o seu nascimento."
+      ],
+
+      [
+        "nome" => "Leandro Cardoso",
+        "especialidade" => " Ginecologista",
+        "foto" => "https://i.pinimg.com/736x/95/ac/92/95ac92ab6997a27442d0e032bdb7c552.jpg",
+        "formação" => "Formada em medicina pela UFAL, com sua especialidade Ginecologia, tratando de questões da mastologia, tratando das patologias que atingem as mamas, fazendo consultas de prevenção até retirada de nódulos mamários."
+      ],
     ];
