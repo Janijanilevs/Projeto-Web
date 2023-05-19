@@ -1,5 +1,5 @@
 <?php
-/* 5 Odontologia, 5 Genicologista,*/
+/* 5 Odontologia,*/
 $medicos =[
     /*-----------------------Parte dos Cardiologistas---------------------------------------------------------------------------------*/
 
@@ -113,7 +113,7 @@ $medicos =[
         "nome" => "Luiz Miguel",
         "especialidade" => " Ginecologista",
         "foto" => "https://i.pinimg.com/564x/4a/b9/3e/4ab93ecfc2c66ed78eda01b78aa17ded.jpg",
-        "formação" => "Formada em medicina pela UFPEL, com sua especialidade Ginecologia endócrina, tratando de questões hormonais e reprodutivos, desde o intra-útero até a sensibilidade, com muita confiaça e descrição"
+        "formação" => "Formado em medicina pela UFPEL, com sua especialidade Ginecologia endócrina, tratando de questões hormonais e reprodutivos, desde o intra-útero até a sensibilidade, com muita confiaça e descrição"
       ],
 
       [
@@ -127,6 +127,20 @@ $medicos =[
         "nome" => "Leandro Cardoso",
         "especialidade" => " Ginecologista",
         "foto" => "https://i.pinimg.com/736x/95/ac/92/95ac92ab6997a27442d0e032bdb7c552.jpg",
-        "formação" => "Formada em medicina pela UFAL, com sua especialidade Ginecologia, tratando de questões da mastologia, tratando das patologias que atingem as mamas, fazendo consultas de prevenção até retirada de nódulos mamários."
+        "formação" => "Formado em medicina pela UFAL, com sua especialidade Ginecologia, tratando de questões da mastologia, tratando das patologias que atingem as mamas, fazendo consultas de prevenção até retirada de nódulos mamários."
+      ],
+      
+      [
+        "nome" => "Lara Oliveira",
+        "especialidade" => " Ginecologista",
+        "foto" => "https://i.pinimg.com/564x/e1/60/a8/e160a83399b412700f167b8a723ee56a.jpg",
+        "formação" => "Formada em medicina pela UFMT, com sua especialidade Ginecologia, especialista em oncologia pélvica,cuida dos tumores malignos que envolvem os órgãos sexuais femininos, como a vulva, vagina, colo de útero, endomério entre outros, seu método deixa esse tratamento mais leve e menos estressante."
+      ],
+
+      [
+        "nome" => "Ana Luisa Barbosa",
+        "especialidade" => " Ginecologista",
+        "foto" => "https://i.pinimg.com/564x/10/21/5b/10215b1d62cdbda48095507854e39e63.jpg",
+        "formação" => "Formada em medicina pela UERJ, com sua especialidade Ginecologia, cuidando da Ginecologia Infantopuberal,para cuidar da sua filha desde cedo, fazendo tratamentos preventivos e atuando em possíveis alterações nos hormônios da criança ."
       ],
     ];
