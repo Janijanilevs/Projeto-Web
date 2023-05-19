@@ -18,7 +18,7 @@
             </div>
             <nav id="menu">
                 <ul>
-                    <li> <a href="" title="perguntas">Pergunte aos profissionais</a></li>
+                    <li><a href="" title="perguntas">Pergunte aos profissionais</a></li>
                     <li><a href="" title="contato">Contato</a></li>
                     <li><a href="" title="ajuda">Ajuda</a></li>
                 </ul>
@@ -45,7 +45,6 @@
             </section>
         
             <section id="detalhes-empresa">
-                <br>
                 <h2 class="titdet">Quais são os benefícios da Consulta+?</h2>
                 <br>
                 <div class="container-itens">
@@ -62,13 +61,25 @@
                         <img src="img/check.png" alt="check">
                     </article>
                 </div>
-                <div class="botao-saibamais">
-                     <a href="" class="botaozinho">Saiba mais sobre nós<a>
-                 </div>
+                <a href="" class="botaozinho"><div class="botao-saibamais">
+                     <h4>Saiba mais sobre nós</h4>
+                 </div><a>
             </section>
 
             <section id="extra">
-                
+                <div id="container-extra">
+                    <div class="item-extra" id="item-1">
+                        <h2>Voçê sabia?</h2>
+                        <h3>O Consulta+ possui planos a partir de apenas R$109,90.</h3>
+                    </div>
+                    <div class="item-extra" id="item-2">
+                        <h3>Aceitamos diversos convênios: UNIMED,BRADESCO SAÚDE, ONE HEALTH E muito mais!</h3>
+                    </div>
+                    <div class="item-extra" id="item-3">
+                        <h2>Quer tirar uma duvida com nossos medicos?</h2>
+                        <h2>FAÇA SUA PERGUNTA</h2>
+                    </div>
+                </div>
             </section>
 
     
