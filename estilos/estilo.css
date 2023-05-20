@@ -13,31 +13,11 @@ img {
     max-width: 100%;
 }
 
-.titulo {
-    color: #0E1344;
-    font-size: 3rem;
-    line-height: 90%;
-    margin-top: 50px;
-    font-family: Nunito;
-    font-weight: bold;
-}
 
-.sub {
-    margin-top: 90px;
-    color: black;
-    font-size: 1.25rem;
-    font-family: Nunito;
-}
 
-#detalhes-empresa .titdet {
-    color: black;
-    font-size: 1.25rem;
-    line-height: 90%;
-    font-family: Nunito;
-    font-weight: bold;
-    margin-top: 10px;
-    text-transform: uppercase;
-}
+/*Essa é a parte do header ou cabeçalho de navegação*/
+
+
 
 #topo {
     background-color: white;
@@ -112,6 +92,27 @@ img {
     border-bottom: 2px solid #0e9ac5;
 }
 
+
+
+/*Parte do main,corpo ou trondo do site*/
+
+
+.titulo {
+    color: #0E1344;
+    font-size: 3rem;
+    line-height: 90%;
+    margin-top: 50px;
+    font-family: Nunito;
+    font-weight: bold;
+}
+
+.sub {
+    margin-top: 90px;
+    color: black;
+    font-size: 1.25rem;
+    font-family: Nunito;
+}
+
 #banner {
     background: rgb(41,116,124);
     background: linear-gradient(50deg, rgba(41,116,124,1) 0%, rgba(0,212,255,1) 64%, rgba(0,212,255,1) 100%);
@@ -128,7 +129,6 @@ img {
     margin-left: 160px;
     margin-top: 30px;
 }
-
 
 #form1{
     display: flex;
@@ -157,6 +157,16 @@ img {
     border: none;
     outline: 0;
     box-shadow: 0 0 0 0;
+}
+
+#detalhes-empresa .titdet {
+    color: black;
+    font-size: 1.25rem;
+    line-height: 90%;
+    font-family: Nunito;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
 }
 
 #detalhes-empresa {
@@ -234,27 +244,63 @@ img {
 }
 
 #extra{
-    padding-top: 2rem;
-    background-color:rgb(1, 7, 88);
-    height: 45vh;
     display: flex;
     justify-content: center;
+    padding-top: 2rem;
+    background-color:rgb(1, 7, 88);
+    height: 35vh;
 }
 
 #container-extra{
     display: flex;
-    justify-content: space-between;
-    display: grid;
-    grid-template-columns: 15rem 20rem 24rem;
-    height: 100%;
-    width: 95%;
+    align-content:space-between;
+    height: 90%;
+    width: 93%;
 }
 
 .item-extra{
     height: 100%;
+    width: 50%;
     color: white;
+    font-family: Nunito;
     font-size: 30px;
 }
+
+#item-1{
+    border-right: 5px solid white;
+    width: 44%;
+}
+#item-2{
+    padding-left: 2%;
+}
+#item-3{
+    border-left: 5px solid white;
+    padding-left: 15px;
+}
+#perg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c8fa0;
+    text-align: center;
+    height: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Parte do rodapé*/
+
+
 
 
 

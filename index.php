@@ -69,19 +69,39 @@
             <section id="extra">
                 <div id="container-extra">
                     <div class="item-extra" id="item-1">
-                        <h3>Voçê sabia?</h3>
-                        <h4>O Consulta+ possui planos a partir de apenas R$109,90.</h4>
+                        <h2>Voçê sabia?</h2>
+                        <h4>O Consulta+ possui planos a partir de apenas <br>R$109,90.</h4>
                     </div>
                     <div class="item-extra" id="item-2">
-                        <h3>Aceitamos diversos convênios: UNIMED,BRADESCO SAÚDE, ONE HEALTH E muito mais!</h3>
+                        <h3>Aceitamos diversos convênios: UNIMED, BRADESCO SAÚDE, ONE HEALTH e muito mais!</h3>
                     </div>
                     <div class="item-extra" id="item-3">
-                        <h2>Quer tirar uma duvida com nossos medicos?</h2>
-                        <h2>FAÇA SUA PERGUNTA</h2>
+                        <h3>Quer tirar uma duvida com nossos medicos?</h3>
+                        <br>
+                        <h3 id="perg">FAÇA SUA PERGUNTA</h3>
                     </div>
                 </div>
             </section>
 
+            <section id="principais-medicos">
+                <div class="prin-medicos">
+                    <div class="med" id="med-1">
+
+                    </div>
+                    <div class="med" id="med-2">
+
+                    </div>
+                    <div class="med" id="med-3">
+
+                    </div>
+                    <div class="med" id="med-4">
+
+                    </div>
+                    <div class="med" id="med-5">
+
+                    </div>
+                </div>
+            </section>
     
         </main>
     
