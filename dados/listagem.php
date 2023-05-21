@@ -4,7 +4,8 @@ require "medicos.php";
     if (isset($_GET["i"])) {
         $i =$_GET ["i"];
     }else{
-        /*VOLTAR PARA O INDEX */ 
+      header("location: index.php");
+      die;
     }
 ?>
 <!DOCTYPE html>
@@ -18,5 +19,12 @@ require "medicos.php";
 <body>
     <h1>Nossos médicos: </h1>
     <!--Aqui agnt vai ter que pegar o vetor de médicos e criar uma class para mostrar os médicos em "cards" mostrar a foto o nome e as descrições, não podendo ocupar a tela toda, colocar pelo menos 2 em cada parte da tela. (CRIAR CLASS CARD NO CSS TBM)-->
+    <div>
+    <img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>">
+			<h3><?=$m["nome"]?></h3>
+			<h4><?=$m["especialidade"]?></h4>
+			<p><?=$m["formação"]?></p>
+			<a href="../index.php" class="link">Voltar</a>
+    </div>
 </body>
 </html>
