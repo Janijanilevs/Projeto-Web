@@ -1,6 +1,6 @@
 <?php
     include "dados/medicos.php";
-
+    $m=$medicos[0];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -84,38 +84,53 @@
         </section>
 
         <section id="principais-medicos">
+            <div>
+                <h1 id="title-med">Médicos Mais Procurados:</h1>
+            </div>
             <div class="prin-medicos">
                 <div id="posi-1">
                     <div class="med" id="med-1">
-                        <img src="" alt="nome">
-                        <h2>Nome</h2>
-                        <h3>Especialidade</h3>
+                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <h2><?=$m["nome"]?></h2>
+                        <h3><?=$m["especialidade"]?></h3>
                         <a href=""><h4>Mais Medicos dessa area</h4></a>
                     </div>
+                    <?php
+                      $m=$medicos[5];
+                    ?>
                     <div class="med" id="med-2">
-                        <img src="" alt="nome">
-                        <h2>Nome</h2>
-                        <h3>Especialidade</h3>
+                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <h2><?=$m["nome"]?></h2>
+                        <h3><?=$m["especialidade"]?></h3>
                         <a href=""><h4>Mais Medicos dessa area</h4></a>
                     </div>
                 </div>
                 <div id="posi-2">
+                    <?php
+                      $m=$medicos[10];
+                    ?>
                     <div class="med" id="med-3">
-                        <img src="" alt="nome">
-                        <h2>Nome</h2>
-                        <h3>Especialidade</h3>
+                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <h2><?=$m["nome"]?></h2>
+                        <h3><?=$m["especialidade"]?></h3>
                         <a href=""><h4>Mais Medicos dessa area</h4></a>
                     </div>
+                    <?php
+                      $m=$medicos[15];
+                    ?>
                     <div class="med" id="med-4">
-                        <img src="" alt="nome">
-                        <h2>Nome</h2>
-                        <h3>Especialidade</h3>
+                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <h2><?=$m["nome"]?></h2>
+                        <h3><?=$m["especialidade"]?></h3>
                         <a href=""><h4>Mais Medicos dessa area</h4></a>
                     </div>
+                    <?php
+                      $m=$medicos[19];
+                    ?>
                     <div class="med" id="med-5">
-                        <img src="" alt="nome">
-                        <h2>Nome</h2>
-                        <h3>Especialidade</h3>
+                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <h2><?=$m["nome"]?></h2>
+                        <h3><?=$m["especialidade"]?></h3>
                         <a href=""><h4>Mais Medicos dessa area</h4></a>
                     </div>
                 </div>

@@ -203,9 +203,10 @@ img {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
     box-shadow: 0px 8px 30px 10PX  rgba(0, 2, 126, 0.5);
+    transition: 0.5s;
 }
 .container-itens .item:hover {
-    transform: scale(1.01,1.01);
+    transform: scale(1.11,1.11);
     box-shadow: 0px 8px 20px 20PX  rgba(56, 190, 207, 0.5);
 }
 .item>h3 {
@@ -233,6 +234,12 @@ img {
     justify-content: center;
     align-items: center;
     margin-left: 430px;
+    transition: 2s;
+}
+
+.botao-saibamais:hover{
+    transform: scale(1.2);
+    background-color: #1ea4f1;
 }
 
 .botaozinho{
@@ -285,20 +292,82 @@ img {
     background-color: #0c8fa0;
     text-align: center;
     height: 30%;
+    transition: .1s;
+}
+#perg:hover{
+    transform: scale(1.03);
 }
 
 
 #principais-medicos{
     height: 100vh;
+    margin-top: 7%;
+}
+
+#principais-medico>div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#title-med{
+    background-color: #A8D6F0;
+    text-align: center;
+    font-size: 60px;
+    font-family: Nunito;
+    border: 15px groove  rgba(72, 72, 230, 0.678);
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: 1s;
+}
+
+#title-med:hover{
+    transform: scale(1.01);
+    border: 20px ridge blue;
+    border-radius: 10px;
 }
 
 
 
+.prin-medicos{
+    margin-top: 8%;
+}
+
+#posi-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+#posi-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.med{
+    text-align: center;
+}
+
+.img-mi{
+    border-radius: 50px;
+    transition:2s;
+}
+
+.img-mi:hover{
+    transform: scale(1.15);
+}
 
 
+.img-mi{
+    max-height: 500px;
+}
 
 
-
+#med-1{
+    padding-right: 20%;
+}
 
 
 /*Parte do rodapé*/
