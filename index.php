@@ -125,7 +125,7 @@
                         <a href=""><h4>Mais Medicos dessa area</h4></a>
                     </div>
                     <?php
-                      $m=$medicos[20];
+                      $m=$medicos[21];
                     ?>
                     <div class="med" id="med-5">
                         <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
@@ -140,7 +140,15 @@
     </main>
     
     <footer>
-        
+        <div id="rodape-1">
+            <div id="footer-area">
+                <h4>Especialidade</h4>
+                
+            </div>
+        </div>
+        <div id="rodape-2">
+
+        </div>
     </footer>    
 </body>
 </html>
