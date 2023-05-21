@@ -96,7 +96,9 @@ img {
 
 /*Parte do main,corpo ou trondo do site*/
 
-
+main{
+    height: 350vh;
+}
 .titulo {
     color: #0E1344;
     font-size: 3rem;
@@ -348,31 +350,55 @@ img {
 
 .med{
     text-align: center;
+    font-family: Nunito;
+}
+
+.med a{
+    text-decoration: none;
+    color: white;
+}
+.med a h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    width: 80%;
+    height: 5vh;
+    border-radius: 10ch;
+    background-color: #1ea4f1;
 }
 
 .img-mi{
+    max-height: 500px;
+    width: 90%;
     border-radius: 50px;
-    transition:2s;
+    transition:.8s;
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.171);
 }
 
 .img-mi:hover{
     transform: scale(1.15);
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.445);
 }
-
-
-.img-mi{
-    max-height: 500px;
-}
-
 
 #med-1{
     padding-right: 20%;
 }
 
+.med h2{
+    margin-top: 45px;
+}
+
+
 
 /*Parte do rodapé*/
 
 
-
+footer{
+    background-color: #343fa5;
+    height: 40vh;
+}
 
 

@@ -30,18 +30,18 @@
         <section id="banner">
             <h2 class="titulo">O QUE VOCÊ GOSTARIA DE AGENDAR?</h2>
             <h3 class="sub">AGENDE SUAS CONSULTAS E TELECONSULTAS RÁPIDO E FÁCIL.</h3>
-                <form action="" method="get" id="form1">
-                    <button><img src="img/busca.png"></button>
-                    <select class="area" name="agendamento">
-                        <option disabled selected value="">Qual especialidade você procura?</option>
-                        <option value="1">Cirurgia Plastica</option>
-                        <option value="2">Odontologia</option>
-                        <option value="3">Nutrição</option>
-                        <option value="4">Ginecologia</option>
-                        <option value="5">Cardiologia</option>
-                    </select>
-                </form>
-                <img src="img/medicos.png" alt="médicos do Consulta+">
+            <form action="" method="get" id="form1">
+                <button><img src="img/busca.png"></button>
+                <select class="area" name="agendamento">
+                    <option disabled selected value="">Qual especialidade você procura?</option>
+                    <option value="1">Cirurgia Plastica</option>
+                    <option value="2">Odontologia</option>
+                    <option value="3">Nutrição</option>
+                    <option value="4">Ginecologia</option>
+                    <option value="5">Cardiologia</option>
+                </select>
+            </form>
+            <img src="img/medicos.png" alt="médicos do Consulta+">
         </section>
 
         <section id="detalhes-empresa">
@@ -125,7 +125,7 @@
                         <a href=""><h4>Mais Medicos dessa area</h4></a>
                     </div>
                     <?php
-                      $m=$medicos[21];
+                      $m=$medicos[20];
                     ?>
                     <div class="med" id="med-5">
                         <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
@@ -140,7 +140,7 @@
     </main>
     
     <footer>
-    
+        
     </footer>    
 </body>
 </html>
