@@ -125,7 +125,7 @@
                         <a href=""><h4>Mais Medicos dessa area</h4></a>
                     </div>
                     <?php
-                      $m=$medicos[19];
+                      $m=$medicos[21];
                     ?>
                     <div class="med" id="med-5">
                         <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
