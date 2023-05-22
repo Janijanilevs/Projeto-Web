@@ -14,10 +14,7 @@ img {
 }
 
 
-
 /*Essa é a parte do header ou cabeçalho de navegação*/
-
-
 
 #topo {
     background-color: white;
@@ -63,7 +60,7 @@ img {
 
 .botao-cadastro-login:hover {
     background-color: rgb(36, 66, 148);
-    transform: scale(1.02,);
+    transform: scale(1.02, );
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     opacity: 0.8;
 }
@@ -93,12 +90,12 @@ img {
 }
 
 
-
 /*Parte do main,corpo ou trondo do site*/
 
-main{
+main {
     height: 350vh;
 }
+
 .titulo {
     color: #0E1344;
     font-size: 3rem;
@@ -116,8 +113,8 @@ main{
 }
 
 #banner {
-    background: rgb(41,116,124);
-    background: linear-gradient(50deg, rgba(41,116,124,1) 0%, rgba(0,212,255,1) 64%, rgba(0,212,255,1) 100%);
+    background: rgb(41, 116, 124);
+    background: linear-gradient(50deg, rgba(41, 116, 124, 1) 0%, rgba(0, 212, 255, 1) 64%, rgba(0, 212, 255, 1) 100%);
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 20% 20% 20% 20% 20%;
@@ -132,7 +129,7 @@ main{
     margin-top: 30px;
 }
 
-#form1{
+#form1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,13 +201,15 @@ main{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
-    box-shadow: 0px 8px 30px 10PX  rgba(0, 2, 126, 0.5);
+    box-shadow: 0px 8px 30px 10PX rgba(0, 2, 126, 0.5);
     transition: 0.5s;
 }
+
 .container-itens .item:hover {
-    transform: scale(1.11,1.11);
-    box-shadow: 0px 8px 20px 20PX  rgba(56, 190, 207, 0.5);
+    transform: scale(1.11, 1.11);
+    box-shadow: 0px 8px 20px 20PX rgba(56, 190, 207, 0.5);
 }
+
 .item>h3 {
     font-size: 2.118rem;
     color: black;
@@ -239,12 +238,12 @@ main{
     transition: 2s;
 }
 
-.botao-saibamais:hover{
+.botao-saibamais:hover {
     transform: scale(1.2);
     background-color: #1ea4f1;
 }
 
-.botaozinho{
+.botaozinho {
     padding: .5rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -252,23 +251,23 @@ main{
     color: black;
 }
 
-#extra{
+#extra {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
-    background-color:rgb(1, 7, 88);
-    height: 35vh;
-    margin-top: 40px ;
+    background-color: rgb(1, 7, 88);
+    height: 40vh;
+    margin-top: 40px;
 }
 
-#container-extra{
+#container-extra {
     display: flex;
-    align-content:space-between;
+    align-content: space-between;
     height: 90%;
     width: 93%;
 }
 
-.item-extra{
+.item-extra {
     height: 100%;
     width: 50%;
     color: white;
@@ -276,18 +275,21 @@ main{
     font-size: 30px;
 }
 
-#item-1{
+#item-1 {
     border-right: 5px solid white;
     width: 44%;
 }
-#item-2{
+
+#item-2 {
     padding-left: 2%;
 }
-#item-3{
+
+#item-3 {
     border-left: 5px solid white;
     padding-left: 15px;
 }
-#perg{
+
+#perg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,68 +298,67 @@ main{
     height: 30%;
     transition: .1s;
 }
-#perg:hover{
+
+#perg:hover {
     transform: scale(1.03);
 }
 
-
-#principais-medicos{
+#principais-medicos {
     height: 100vh;
     margin-top: 7%;
 }
 
-#principais-medico>div{
+#principais-medico>div {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-#title-med{
+#title-med {
     background-color: #A8D6F0;
     text-align: center;
     font-size: 60px;
     font-family: Nunito;
-    border: 15px groove  rgba(72, 72, 230, 0.678);
+    border: 15px groove rgba(72, 72, 230, 0.678);
     margin-left: 20%;
     margin-right: 20%;
     transition: 1s;
 }
 
-#title-med:hover{
+#title-med:hover {
     transform: scale(1.01);
     border: 20px ridge blue;
     border-radius: 10px;
 }
 
-
-
-.prin-medicos{
+.prin-medicos {
     margin-top: 8%;
 }
 
-#posi-1{
+#posi-1 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
 }
 
-#posi-2{
+#posi-2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.med{
+.med {
     text-align: center;
     font-family: Nunito;
 }
 
-.med a{
+.med a {
     text-decoration: none;
     color: white;
 }
-.med a h4{
+
+.med a h4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,47 +371,43 @@ main{
     background-color: #1ea4f1;
 }
 
-.img-mi{
+.img-mi {
     max-height: 500px;
     width: 90%;
     border-radius: 50px;
-    transition:.8s;
+    transition: .8s;
     box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.171);
 }
 
-.img-mi:hover{
+.img-mi:hover {
     transform: scale(1.15);
     box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.445);
 }
 
-#med-1{
+#med-1 {
     padding-right: 20%;
 }
 
-.med h2{
+.med h2 {
     margin-top: 45px;
 }
 
 
-
 /*Parte do rodapé*/
 
-
-footer{
+footer {
     margin-top: 50px;
     background-color: #11098a;
     height: 80vh;
 }
 
-#rodape-1{
+#rodape-1 {
     width: 100%;
     height: 80%;
 }
 
-#rodape-2{
+#rodape-2 {
     background-color: #0d0766;
     width: 100%;
     height: 20%;
 }
-
-
