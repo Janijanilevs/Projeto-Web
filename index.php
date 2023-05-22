@@ -142,7 +142,6 @@
     </main>
 
     <footer id="rodape">
-        <div></div>
         <img src="img/logo-rodape.png" class="logo-rodape">
         <p class="ui-minha-autoral">Todos os Direitos Reservados &copy; Consulta+ 2023</p>
         <div class="redes-sociais">
