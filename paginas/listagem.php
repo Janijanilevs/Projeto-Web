@@ -1,10 +1,10 @@
 <?php
 /*Arquivo para "criar" a listagem dos cards dos médicos de acordo com o item da busca da especialidade, estilo o funcionário.php que thiago criou no doc dele.*/
-require "medicos.php";
+require "../dados/medicos.php";
     if (isset($_GET["i"])) {
         $i =$_GET ["i"];
     }else{
-      header("location: index.php");
+      header("location: ../index.php");
       die;
     }
 ?>
