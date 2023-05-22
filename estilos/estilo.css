@@ -396,12 +396,13 @@ main {
 /*Parte do rodapé*/
 
 footer {
-    color: #0d0766;
-    margin-top: 80px;
-    height: 80vh;
+    background-color: #0d0766;
+    margin-top: 480px;
+    height: 30vh;
 }
 
-#rodape-1 {
+
+/*#rodape-1 {
     width: 100%;
     height: 80%;
 }
@@ -410,4 +411,4 @@ footer {
     background-color: #0d0766;
     width: 100%;
     height: 20%;
-}
+}*/

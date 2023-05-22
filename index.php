@@ -140,7 +140,15 @@
     </main>
 
     <footer>
+        <div id="rodape-1">
+            <div id="footer-area">
+                <h4>Especialidade</h4>
+                
+            </div>
+        </div>
+        <div id="rodape-2">
 
+        </div>
     </footer>    
 </body>
 </html>
