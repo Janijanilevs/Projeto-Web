@@ -395,7 +395,7 @@ main {
 
 /*Parte do rodapé*/
 
-footer {
+#rodape {
     background-color: #0d0766;
     margin-top: 480px;
     height: 30vh;

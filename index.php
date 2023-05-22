@@ -139,7 +139,7 @@
     
     </main>
 
-    <footer>
+    <footer id="rodape">
 
     </footer>    
 </body>
