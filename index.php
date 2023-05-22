@@ -61,24 +61,26 @@
                     <img src="img/check.png" alt="check">
                 </article>
             </div>
-            <a href="" class="botaozinho"><div class="botao-saibamais">
-                 <h4>Saiba mais sobre nós</h4>
-            </div><a>
+            <a href="" class="botaozinho">
+                <div class="botao-saibamais">
+                    <h4>Saiba mais sobre nós</h4>
+                </div>
+            <a>
         </section>
 
         <section id="extra">
             <div id="container-extra">
                 <div class="item-extra" id="item-1">
-                    <h2 class="text-ex">Voçê sabia?</h2>
+                    <h2 class="text-ex">VOCÊ SABIA?</h2><br><br>
                      <h4 class="text-ex">O Consulta+ possui planos a partir de apenas <br>R$109,90.</h4>
                 </div>
                 <div class="item-extra" id="item-2">
-                    <h3 class="text-ex">Aceitamos diversos convênios: UNIMED, BRADESCO SAÚDE, ONE HEALTH e muito mais!</h3>
+                    <h3 class="text-ex">ACEITAMOS DIVERSOS CONVÊNIOS:<br><br> UNIMED, BRADESCO SAÚDE, ONE HEALTH e muito mais!</h3>
                 </div>
                 <div class="item-extra" id="item-3">
-                    <h3 class="text-ex">Quer tirar uma duvida com nossos medicos?</h3>
-                    <br>
-                    <h3 id="perg">FAÇA SUA PERGUNTA</h3>
+                    <h3 class="text-ex">QUER TIRAR ALGUMA DÚVIDA COM NOSSOS MÉDICOS?</h3>
+                    <br><br>
+                    <h3 id="perg">FAÇA JÁ A SUA PERGUNTA</h3>
                 </div>
             </div>
         </section>
@@ -139,15 +141,13 @@
     
     </main>
 
-    <footer>
-        <div id="rodape-1">
-            <div id="footer-area">
-                <h4>Especialidade</h4>
-                
-            </div>
-        </div>
-        <div id="rodape-2">
-
+    <footer id="rodape">
+        <img src="img/logo-azul.png" class="logo-rodape">
+        <p class="ui-minha-autoral">Todos os Direitos Reservados &copy; Consulta+ 2023</p>
+        <div class="redes-sociais">
+            <a href="" title="Facebook"><img src="img/face.png"></a>
+            <a href="" title="Instagram"><img src="img/insta.png"></a>
+            <a href="" title="Whatsapp"><img src="img/whats.png"></a>
         </div>
     </footer>    
 </body>
