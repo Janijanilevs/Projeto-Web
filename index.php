@@ -61,9 +61,11 @@
                     <img src="img/check.png" alt="check">
                 </article>
             </div>
-            <a href="" class="botaozinho"><div class="botao-saibamais">
-                 <h4>Saiba mais sobre nós</h4>
-            </div><a>
+            <a href="" class="botaozinho">
+                <div class="botao-saibamais">
+                    <h4>Saiba mais sobre nós</h4>
+                </div>
+            <a>
         </section>
 
         <section id="extra">
