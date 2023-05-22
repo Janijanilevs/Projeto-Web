@@ -142,7 +142,7 @@
     </main>
 
     <footer id="rodape">
-        <img src="img/logo-azul.png" class="logo-rodape">
+        <img src="img/logo-rodape.png" class="logo-rodape">
         <p class="ui-minha-autoral">Todos os Direitos Reservados &copy; Consulta+ 2023</p>
         <div class="redes-sociais">
             <a href="" title="Facebook"><img src="img/face.png"></a>
