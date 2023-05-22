@@ -276,7 +276,7 @@ main {
 }
 
 #item-1 {
-    border-right: 5px solid white;
+    border-right: 5px solid rgb(255, 255, 255);
     width: 44%;
 }
 

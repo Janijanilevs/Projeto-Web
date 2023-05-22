@@ -1,7 +1,4 @@
-<!--<?php
-    include "php/logic.php";
-    ?>-->
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
@@ -18,15 +15,13 @@
             </div>
             <nav id="menu">
                 <ul>
-                    <li> <a href="" title="perguntas">Pergunte aos profissionais</a></li>
-                    <li><a href="" title="contato">Contato</a></li>
-                    <li><a href="" title="ajuda">Ajuda</a></li>
+                    <li> <a href="">Pergunte aos profissionais</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Ajuda</a></li>
                 </ul>
             </nav>
         </header>
-    
-        <main>
-        <main name="cntt" id="form">
+        <main name="cntt" id ="">
             <h2 id="titulo"> Entre em contato conosco</h2>
         <form method="post" action="recebimento.php" id="contato">
                 <h1>Agende seu Atendimento</h1>
@@ -88,8 +83,7 @@
                 <a href="index.html"><img src="imagens/logo/logo.png.png"></a>
             </div>
         </main>
-        </main>
-    
+
         <footer>
     
         </footer>    
