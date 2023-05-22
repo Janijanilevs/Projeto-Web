@@ -142,12 +142,14 @@
     </main>
 
     <footer id="rodape">
+        <div>
         <img src="img/logo-rodape.png" class="logo-rodape">
         <p class="ui-minha-autoral">Todos os Direitos Reservados &copy; Consulta+ 2023</p>
         <div class="redes-sociais">
             <a href="" title="Facebook"><img src="img/face.png"></a>
             <a href="" title="Instagram"><img src="img/insta.png"></a>
             <a href="" title="Whatsapp"><img src="img/whats.png"></a>
+        </div>
         </div>
     </footer>    
 </body>
