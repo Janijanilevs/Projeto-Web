@@ -319,7 +319,7 @@ main {
     text-align: center;
     font-size: 60px;
     font-family: Nunito;
-    border: 15px groove rgba(72, 72, 230, 0.678);
+    border: 5px groove rgba(72, 72, 230, 0.678);
     margin-left: 20%;
     margin-right: 20%;
     transition: 1s;
@@ -327,7 +327,7 @@ main {
 
 #title-med:hover {
     transform: scale(1.01);
-    border: 20px ridge blue;
+    border: 7px ridge #0c8fa0;
     border-radius: 10px;
 }
 
