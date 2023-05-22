@@ -398,5 +398,17 @@ main {
 #rodape {
     background-color: #0d0766;
     margin-top: 480px;
-    height: 30vh;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-rodape {
+    margin-top: 20px;
+}
+
+.ui-minha-autoral {
+    color: white;
+    font-family: Nunito;
 }
