@@ -93,7 +93,7 @@
                         <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa area</h4></a>
+                        <a href=""><h4>Mais Medicos dessa área</h4></a>
                     </div>
                     <?php
                       $m=$medicos[5];
@@ -102,7 +102,7 @@
                         <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa area</h4></a>
+                        <a href=""><h4>Mais Medicos dessa área</h4></a>
                     </div>
                 </div>
                 <div id="posi-2">
@@ -113,7 +113,7 @@
                         <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa area</h4></a>
+                        <a href=""><h4>Mais Medicos dessa área</h4></a>
                     </div>
                     <?php
                       $m=$medicos[15];
@@ -122,7 +122,7 @@
                         <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa area</h4></a>
+                        <a href=""><h4>Mais Medicos dessa área</h4></a>
                     </div>
                     <?php
                       $m=$medicos[21];
@@ -131,7 +131,7 @@
                         <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa area</h4></a>
+                        <a href=""><h4>Mais Medicos dessa área</h4></a>
                     </div>
                 </div>
             </div>
