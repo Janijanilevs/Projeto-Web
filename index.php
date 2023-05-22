@@ -20,7 +20,7 @@
         <nav id="menu">
             <ul>
                 <li><a href="" title="perguntas">Pergunte aos profissionais</a></li>
-                <li><a href="" title="contato">Contato</a></li>
+                <li><a href="/paginas/contato.php" title="contato">Contato</a></li>
                 <li><a href="" title="ajuda">Ajuda</a></li>
             </ul>
         </nav>
@@ -138,7 +138,7 @@
         </section>
     
     </main>
-    
+
     <footer>
         <div id="rodape-1">
             <div id="footer-area">
