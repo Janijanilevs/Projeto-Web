@@ -144,6 +144,7 @@
         <div id="roda-1">
             <img src="img/logo-rodape.png" class="logo-rodape">
             <div class="wrapper">
+                
                 <div id="sub-e">
                     <h3>Especialidades</h3>
                     <p>Cardiologia</p>
