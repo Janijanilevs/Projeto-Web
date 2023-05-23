@@ -94,7 +94,7 @@
                         <a href="paginas/listagem.php?especialidade=0"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=0"><h4>Mais Medicos da área de Cardiologia</h4></a>
+                        <a href="paginas/listagem.php?especialidade=0"><h4 class="mmed">Mais Medicos da área de Cardiologia</h4></a>
                     </div>
                     <?php
                       $m=$medicos[5];
@@ -103,7 +103,7 @@
                         <a href="paginas/listagem.php?especialidade=5"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=5"><h4>Mais Medicos da área de Cirurgia Plastica</h4></a>
+                        <a href="paginas/listagem.php?especialidade=5"><h4 class="mmed">Mais Medicos da área de Cirurgia Plastica</h4></a>
                     </div>
                 </div>
                 <div id="posi-2">
@@ -114,7 +114,7 @@
                         <a href="paginas/listagem.php?especialidade=10"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=10"><h4>Mais Medicos da área de Nutrição</h4></a>
+                        <a href="paginas/listagem.php?especialidade=10"><h4 class="mmed">Mais Medicos da área de Nutrição</h4></a>
                     </div>
                     <?php
                       $m=$medicos[15];
@@ -123,7 +123,7 @@
                         <a href="paginas/listagem.php?especialidade=15"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=15"><h4>Mais Medicos da área Ginecologia</h4></a>
+                        <a href="paginas/listagem.php?especialidade=15"><h4 class="mmed">Mais Medicos da área Ginecologia</h4></a>
                     </div>
                     <?php
                       $m=$medicos[21];
@@ -132,7 +132,7 @@
                         <a href="paginas/listagem.php?especialidade=20"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=20"><h4>Mais Medicos da área de Odontologia</h4></a>
+                        <a href="paginas/listagem.php?especialidade=20"><h4 class="mmed">Mais Medicos da área de Odontologia</h4></a>
                     </div>
                 </div>
             </div>
