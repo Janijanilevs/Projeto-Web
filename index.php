@@ -30,15 +30,15 @@
         <section id="banner">
             <h2 class="titulo">O QUE VOCÊ GOSTARIA DE AGENDAR?</h2>
             <h3 class="sub">AGENDE SUAS CONSULTAS E TELECONSULTAS RÁPIDO E FÁCIL.</h3>
-            <form action="" method="get" id="form1">
+            <form action="paginas/listagem.php" method="get" id="form1">
                 <button><img src="img/busca.png"></button>
-                <select class="area" name="agendamento">
+                <select class="area" name="especialidade">
                     <option disabled selected value="">Qual especialidade você procura?</option>
-                    <option value="1">Cirurgia Plastica</option>
-                    <option value="2">Odontologia</option>
-                    <option value="3">Nutrição</option>
-                    <option value="4">Ginecologia</option>
-                    <option value="5">Cardiologia</option>
+                    <option value="0">Cardiologia</option>
+                    <option value="5">Cirurgia Plastica</option>
+                    <option value="10">Nutrição</option>
+                    <option value="15">Ginecologia</option>
+                    <option value="20">Odontologia</option>
                 </select>
             </form>
             <img src="img/medicos.png" alt="médicos do Consulta+">
@@ -91,19 +91,19 @@
             <div class="prin-medicos">
                 <div id="posi-1">
                     <div class="med" id="med-1">
-                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=0"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa área</h4></a>
+                        <a href="paginas/listagem.php?especialidade=0"><h4>Mais Medicos da área de Cardiologia</h4></a>
                     </div>
                     <?php
                       $m=$medicos[5];
                     ?>
                     <div class="med" id="med-2">
-                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=5"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa área</h4></a>
+                        <a href="paginas/listagem.php?especialidade=5"><h4>Mais Medicos da área de Cirurgia Plastica</h4></a>
                     </div>
                 </div>
                 <div id="posi-2">
@@ -111,28 +111,28 @@
                       $m=$medicos[10];
                     ?>
                     <div class="med" id="med-3">
-                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=10"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa área</h4></a>
+                        <a href="paginas/listagem.php?especialidade=10"><h4>Mais Medicos da área de Nutrição</h4></a>
                     </div>
                     <?php
                       $m=$medicos[15];
                     ?>
                     <div class="med" id="med-4">
-                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=15"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa área</h4></a>
+                        <a href="paginas/listagem.php?especialidade=15"><h4>Mais Medicos da área Ginecologia</h4></a>
                     </div>
                     <?php
                       $m=$medicos[21];
                     ?>
                     <div class="med" id="med-5">
-                        <a href=""><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=20"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href=""><h4>Mais Medicos dessa área</h4></a>
+                        <a href="paginas/listagem.php?especialidade=20"><h4>Mais Medicos da área de Odontologia</h4></a>
                     </div>
                 </div>
             </div>
