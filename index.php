@@ -143,23 +143,24 @@
     <footer id="rodape">
         <div id="roda-1">
             <img src="img/logo-rodape.png" class="logo-rodape">
-            <div id="sub-e">
-                <h3>Especialidades</h3>
-                <h3>Cardiologia</h3>
-                <h3>Cirurgia Plastica</h3>
-                <h3>Nutrição</h3>
-                <h3>Ginecologia</h3>
-                <h3>Odontologia</h3>
+            <div id="grid-footer">
+                <div id="sub-e">
+                    <h3>Especialidades</h3>
+                    <h3>Cardiologia</h3>
+                    <h3>Cirurgia Plastica</h3>
+                    <h3>Nutrição</h3>
+                    <h3>Ginecologia</h3>
+                    <h3>Odontologia</h3>
+                </div>
+                <div id="sub-cidade">
+                    <h3>Estado</h3>
+                    <h3>Bahia</h3>
+                    <h3>Minas Gerais</h3>
+                    <h3>São Paulo</h3>
+                    <h3>Pernambuco</h3>
+                    <h3>Rio De Janeiro</h3>
+                </div>
             </div>
-            <div id="sub-cidade">
-                <h3>Cidades</h3>
-                <h3>Bahia</h3>
-                <h3>Minas Gerais</h3>
-                <h3>São Paulo</h3>
-                <h3>Pernambuco</h3>
-                <h3>Rio De Janeiro</h3>
-            </div>
-            
             <div class="redes-sociais">
                 <a href="" title="Facebook"><img src="img/face.png"></a>
                 <a href="" title="Instagram"><img src="img/insta.png"></a>

@@ -402,7 +402,7 @@ main {
 }
 
 
-/*Parte do rodapé*/
+/*-------------------------Parte do rodapé---------------------------------------------------------------------------------*/
 
 
 
@@ -416,16 +416,14 @@ main {
     height: 80%;
     display: grid;
 }
-
-
-
-
-
-
+#div-footer{
+    display: grid;
+}
 
 #roda-2{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(13, 7, 102);
     height: 20%;
+    text-align: center;
 }
 
 
