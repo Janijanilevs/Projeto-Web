@@ -93,7 +93,7 @@ img {
 /*Parte do main,corpo ou trondo do site*/
 
 main {
-    height: 350vh;
+    height: 330vh;
 }
 
 .titulo {
@@ -276,6 +276,7 @@ main {
 }
 
 .item-extra h2, .item-extra h3, .item-extra h4{
+    margin-top: 15px;
     font-size: 35px;
 }
 
@@ -302,6 +303,7 @@ main {
     font-size: 30px;
     margin-top: 1ch;
     height: 30%;
+    border-radius:10px;
     transition: .1s;
 }
 
@@ -310,8 +312,9 @@ main {
 }
 
 #principais-medicos {
-    height: 100vh;
-    margin-top: 7%;
+    height: 248vh;
+    padding-top: 7%;
+    background: rgb(0,255,244);background: linear-gradient(180deg, rgba(0,255,244,1) 0%, rgba(0,255,244,1) 85%, rgba(13,7,102,1) 100%);
 }
 
 #principais-medico>div {
@@ -401,23 +404,39 @@ main {
 
 /*Parte do rodapé*/
 
+
+
 #rodape {
-    background-color: rgb(13, 7, 102);
+    height: 90vh;
     margin-top: 580px;
-    height: 26vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.logo-rodape {
-    margin-top: 20px;
+#roda-1{
+    background-color: rgb(13, 7, 102);
+    height: 80%;
+    display: grid;
 }
+
+
+
+
+
+
+
+#roda-2{
+    background-color: rgb(0, 0, 0);
+    height: 20%;
+}
+
 
 .ui-minha-autoral {
     color: rgb(255, 255, 255);
     font-family: Nunito;
 }
+
+
+
+
 /*---------Parte dos contatos----------------------------------------------------------*/
 #form{
     height: 20%;

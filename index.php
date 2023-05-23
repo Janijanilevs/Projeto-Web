@@ -141,13 +141,29 @@
     </main>
 
     <footer id="rodape">
+        <div id="roda-1">
             <img src="img/logo-rodape.png" class="logo-rodape">
-            <p class="ui-minha-autoral">Todos os Direitos Reservados &copy; Consulta+ 2023</p>
+            <div id="sub-e">
+                <h3>Especialidades</h3>
+                <h3>Cardiologia</h3>
+                <h3>Cirurgia Plastica</h3>
+                <h3>Nutrição</h3>
+                <h3>Ginecologia</h3>
+                <h3>Odontologia</h3>
+            </div>
+            <div id="sub-">
+
+            </div>
+            
             <div class="redes-sociais">
                 <a href="" title="Facebook"><img src="img/face.png"></a>
                 <a href="" title="Instagram"><img src="img/insta.png"></a>
                 <a href="" title="Whatsapp"><img src="img/whats.png"></a>
             </div>
+        </div>
+        <div id="roda-2">
+            <p class="ui-minha-autoral">Todos os Direitos Reservados &copy; Consulta+ 2023</p>
+        </div>
     </footer>    
 </body>
 </html>
