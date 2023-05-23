@@ -1,7 +1,7 @@
 <?php
 /*Arquivo para "criar" a listagem dos cards dos médicos de acordo com o item da busca da especialidade, estilo o funcionário.php que thiago criou no doc dele.*/
 require "../dados/medicos.php";
-    if (isset($_GET["especialidade"])) {
+    if (isset($_GET["especialidade"])&&($_GET["especialidade"]==0 ||$_GET["especialidade"]==5 ||$_GET["especialidade"]==10 ||$_GET["especialidade"]==15 ||$_GET["especialidade"]==20)) {
         $i = $_GET ["especialidade"];
     }else{
       header("location: ../index.php");
