@@ -35,7 +35,7 @@
                 <select class="area" name="especialidade">
                     <option disabled selected value="">Qual especialidade você procura?</option>
                     <option value="Cardiologia">Cardiologia</option>
-                    <option value="Cirurgia">Cirurgia Plastica</option>
+                    <option value="Cirurgia Plástica">Cirurgia Plastica</option>
                     <option value="Nutrição">Nutrição</option>
                     <option value="Ginecologia">Ginecologia</option>
                     <option value="Odontologia">Odontologia</option>
