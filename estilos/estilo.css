@@ -378,6 +378,13 @@ main {
     height: 5vh;
     border-radius: 10ch;
     background-color: #1ea4f1;
+    transition: 0.3s;
+}
+
+.med a :hover{
+    color: rgb(14, 231, 130);
+    background-color: #0e75b1;
+    transform: scale(1.03);
 }
 
 .img-mi {
