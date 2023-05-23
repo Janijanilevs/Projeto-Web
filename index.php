@@ -151,8 +151,13 @@
                 <h3>Ginecologia</h3>
                 <h3>Odontologia</h3>
             </div>
-            <div id="sub-">
-
+            <div id="sub-cidade">
+                <h3>Cidades</h3>
+                <h3>Bahia</h3>
+                <h3>Minas Gerais</h3>
+                <h3>São Paulo</h3>
+                <h3>Pernambuco</h3>
+                <h3>Rio De Janeiro</h3>
             </div>
             
             <div class="redes-sociais">
