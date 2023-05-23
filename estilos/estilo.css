@@ -17,11 +17,11 @@ img {
 /*Essa é a parte do header ou cabeçalho de navegação*/
 
 #topo {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 20vh;
     padding: 1rem;
     margin-top: 0.3rem;
-    border-bottom: 1px solid #d4cdc5;
+    border-bottom: 1px solid rgb(212, 205, 197);
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
@@ -53,8 +53,8 @@ img {
 }
 
 .botao-cadastro-login {
-    color: #f9fadc;
-    background-color: #0e9ac5;
+    color: rgb(249, 250, 220);
+    background-color: rgb(14, 154, 197);
     border-radius: 10px;
 }
 
@@ -77,7 +77,7 @@ img {
 }
 
 #menu a {
-    color: #7a8c89;
+    color: rgb(122, 140, 137);
     text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ img {
 }
 
 #menu li:hover {
-    border-bottom: 2px solid #0e9ac5;
+    border-bottom: 2px solid rgb(14, 154, 197);
 }
 
 
@@ -97,7 +97,7 @@ main {
 }
 
 .titulo {
-    color: #0E1344;
+    color: rgb(14, 19, 68);
     font-size: 3rem;
     line-height: 90%;
     margin-top: 50px;
@@ -107,7 +107,7 @@ main {
 
 .sub {
     margin-top: 90px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.25rem;
     font-family: Nunito;
 }
@@ -148,7 +148,7 @@ main {
     width: 10%;
     height: 50px;
     border: none;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: .5rem;
 }
 
@@ -159,7 +159,7 @@ main {
 }
 
 #detalhes-empresa .titdet {
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.25rem;
     line-height: 90%;
     font-family: Nunito;
@@ -169,7 +169,7 @@ main {
 }
 
 #detalhes-empresa {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 65vh;
     padding: 3rem 3rem 3rem 3rem;
 }
@@ -187,7 +187,7 @@ main {
     width: 80px;
     height: 90px;
     border: none;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: .5rem;
     margin-left: 90px;
     margin-bottom: 12px;
@@ -196,7 +196,7 @@ main {
 .container-itens .item {
     width: 30%;
     background-color: white;
-    border: 1px solid #7a8c89;
+    border: 1px solid rgb(122, 140, 137);
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -227,8 +227,8 @@ main {
 
 .botao-saibamais {
     display: flex;
-    color: black;
-    background-color: #A8D6F0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(168, 214, 240);
     border-radius: 10px;
     width: 465px;
     height: 60px;
@@ -240,7 +240,7 @@ main {
 
 .botao-saibamais:hover {
     transform: scale(1.2);
-    background-color: #1ea4f1;
+    background-color: rgb(30, 164, 241);
 }
 
 .botaozinho {
@@ -248,7 +248,7 @@ main {
     text-decoration: none;
     text-transform: uppercase;
     font-family: Nunito;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 #extra {
@@ -270,7 +270,7 @@ main {
 .item-extra {
     height: 100%;
     width: 50%;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Nunito;
     font-size: 20px;
 }
@@ -285,7 +285,7 @@ main {
 }
 
 #item-3 {
-    border-left: 5px solid white;
+    border-left: 5px solid rgb(255, 255, 255);
     padding-left: 15px;
 }
 
@@ -293,7 +293,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0c8fa0;
+    background-color: rgb(12, 143, 160);
     text-align: center;
     height: 30%;
     transition: .1s;
@@ -315,7 +315,7 @@ main {
 }
 
 #title-med {
-    background-color: #A8D6F0;
+    background-color: rgb(168, 214, 240);
     text-align: center;
     font-size: 60px;
     font-family: Nunito;
@@ -327,7 +327,7 @@ main {
 
 #title-med:hover {
     transform: scale(1.01);
-    border: 7px ridge #0c8fa0;
+    border: 7px ridge rgb(12, 143, 160);
     border-radius: 10px;
 }
 
@@ -396,7 +396,7 @@ main {
 /*Parte do rodapé*/
 
 #rodape {
-    background-color: #0d0766;
+    background-color: rgb(13, 7, 102);
     margin-top: 580px;
     height: 26vh;
     display: flex;
@@ -409,6 +409,39 @@ main {
 }
 
 .ui-minha-autoral {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Nunito;
+}
+/*---------Parte dos contatos----------------------------------------------------------*/
+#form{
+    height: 20%;
+}
+#contato{
+    width: 90vw;
+    height: 80vh;
+    padding: 2%;
+    background-color: rgb(1, 7, 88);
+    border: 2px solid ;
+    border-radius: 2%;
+    margin: auto;
+    color:rgb(122, 140, 137);
+}
+#titulo{
+    text-align: center;
+    color:rgb(14, 19, 68);
+    font-size: 50px;
+}
+#contato h1{
+    color:rgb(122, 140, 137);
+    text-align: center;
+}
+iframe{
+    margin-top: 80px;
+    width: 100%;
+}
+#sexo{
+    border: none;
+}
+#procedimento{
+    border: none;
 }
