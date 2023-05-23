@@ -314,7 +314,7 @@ main {
 #principais-medicos {
     height: 248vh;
     padding-top: 7%;
-    background: rgb(0,255,244);background: linear-gradient(180deg, rgba(0,255,244,1) 0%, rgba(0,255,244,1) 85%, rgba(13,7,102,1) 100%);
+   /* background: rgb(0,255,244);background: linear-gradient(180deg, rgba(0,255,244,1) 0%, rgba(0,255,244,1) 85%, rgba(13,7,102,1) 100%);*/
 }
 
 #principais-medico>div {
@@ -416,8 +416,10 @@ main {
     height: 80%;
     display: grid;
 }
-#div-footer{
+.wrapper{
     display: grid;
+    grid-template-columns: 200px 200px;
+    color: rgb(255, 255, 255);
 }
 
 #roda-2{

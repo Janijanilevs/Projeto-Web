@@ -143,22 +143,22 @@
     <footer id="rodape">
         <div id="roda-1">
             <img src="img/logo-rodape.png" class="logo-rodape">
-            <div id="grid-footer">
+            <div class="wrapper">
                 <div id="sub-e">
                     <h3>Especialidades</h3>
-                    <h3>Cardiologia</h3>
-                    <h3>Cirurgia Plastica</h3>
-                    <h3>Nutrição</h3>
-                    <h3>Ginecologia</h3>
-                    <h3>Odontologia</h3>
+                    <p>Cardiologia</p>
+                    <p>Cirurgia Plastica</p>
+                    <p>Nutrição</p>
+                    <p>Ginecologia</p>
+                    <p>Odontologia</p>
                 </div>
                 <div id="sub-cidade">
                     <h3>Estado</h3>
-                    <h3>Bahia</h3>
-                    <h3>Minas Gerais</h3>
-                    <h3>São Paulo</h3>
-                    <h3>Pernambuco</h3>
-                    <h3>Rio De Janeiro</h3>
+                    <p>Bahia</p>
+                    <p>Minas Gerais</p>
+                    <p>São Paulo</p>
+                    <p>Pernambuco</p>
+                    <p>Rio De Janeiro</p>
                 </div>
             </div>
             <div class="redes-sociais">
