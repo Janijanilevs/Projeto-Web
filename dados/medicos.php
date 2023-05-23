@@ -49,7 +49,7 @@ $medicos =[
       [
         "nome" => "Geovana Aparecida",
         "especialidade" => "Cirurgiã Plástico",
-        "foto" => "https://i.pinimg.com/originals/3d/c8/f2/3dc8f2c8fa0a30baef024dcf00cc3f37.jpg",
+        "foto" => "https://i.pinimg.com/236x/c3/1f/78/c31f78b170e7a95af053d4e745f62a47.jpg",
         "formação" => "Formada em medicina pela UNIFESP,com especialidade em questões ligadas ao câncer de pele, sendo elas: retirada de tumores, remoção de ccatrizes, ou até mesmo implantação de enxertos"
       ],
 
@@ -170,14 +170,14 @@ $medicos =[
     [
       "nome" => "Evelyn Almeida",
       "especialidade" => "Odontologia",
-      "foto" => "",
+      "foto" => "https://i.pinimg.com/236x/06/d9/6e/06d96ed1ff732c70435cfcfb1c75e798.jpg",
       "formação" => "Formada em odontologia pela UFSC, com sua especialidade Implantodontia, cuida do setor de implantes de dentes da maneira mais tecnológica e acessível para você."
     ],
 
     [
       "nome" => "Manuela Araujo",
       "especialidade" => " Odontologia",
-      "foto" => "",
+      "foto" => "https://i.pinimg.com/736x/b2/98/19/b29819377d5ffc24be8729e27f343082.jpg",
       "formação" => "Formada em odontologia pela SANTO AUGOSTINHO, com sua especialidade Estomatologia, diagnosticando lesões dentro e fora da cavidade bucal, podendo ou não realizar cirurgias."
     ],
 
