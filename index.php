@@ -72,7 +72,7 @@
             <div id="container-extra">
                 <div class="item-extra" id="item-1">
                     <h2 class="text-ex">VOCÊ SABIA?</h2>
-                     <h4 class="text-ex">O Consulta+ possui planos a partir de apenas <br>R$109,90.</h4>
+                    <h4 class="text-ex">O Consulta+ possui planos a partir de apenas <br>R$109,90.</h4>
                 </div>
                 <div class="item-extra" id="item-2">
                     <h3 class="text-ex">ACEITAMOS DIVERSOS CONVÊNIOS: UNIMED, BRADESCO SAÚDE, ONE HEALTH e muito mais!</h3>
