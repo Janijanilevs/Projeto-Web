@@ -19,9 +19,9 @@
         </div>
         <nav id="menu">
             <ul>
-                <li><a href="">Pergunte aos profissionais</a></li>
+                <li><a href="paginas/pergunta.php">Pergunte aos profissionais</a></li>
                 <li><a href="paginas/contato.php">Contato</a></li>
-                <li><a href="">Ajuda</a></li>
+                <li><a href="paginas/ajuda.php">Ajuda</a></li>
             </ul>
         </nav>
     </header>

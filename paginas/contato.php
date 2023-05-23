@@ -11,13 +11,13 @@
             <header id="topo">
                 <h1 class="logo-site">Consulta+</h1>
             <div class="botao">
-               <a href="" class="botao-cadastro-login">Entrar/Cadastrar<a>
+               <a href="../index.php" class="botao-cadastro-login">Entrar/Cadastrar<a>
             </div>
                 <nav id="menu">
                     <ul>
-                        <li> <a href="">Pergunte aos profissionais</a></li>
+                        <li> <a href="../../Projeto-Web/paginas/pergunta.php">Pergunte aos profissionais</a></li>
                         <li><a href="">Contato</a></li>
-                        <li><a href="">Ajuda</a></li>
+                        <li><a href="../../Projeto-Web/paginas/ajuda.php">Ajuda</a></li>
                     </ul>
                 </nav>
             </header>
