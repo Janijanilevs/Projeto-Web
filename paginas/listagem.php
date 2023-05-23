@@ -1,12 +1,16 @@
 <?php
 /*Arquivo para "criar" a listagem dos cards dos médicos de acordo com o item da busca da especialidade, estilo o funcionário.php que thiago criou no doc dele.*/
 require "../dados/medicos.php";
-    if (isset($_GET["especialidade"])&&($_GET["especialidade"]==0 ||$_GET["especialidade"]==5 ||$_GET["especialidade"]==10 ||$_GET["especialidade"]==15 ||$_GET["especialidade"]==20)) {
-        $i = $_GET ["especialidade"];
+    //if (isset($_GET["especialidade"])&&($_GET["especialidade"]==0 ||$_GET["especialidade"]==5 ||$_GET["especialidade"]==10 ||$_GET["especialidade"]==15 ||$_GET["especialidade"]==20)) {
+    if (isset($_GET["especialidade"])){
+        $especialidade = $_GET ["especialidade"];
     }else{
       header("location: ../index.php");
       die;
     }
+
+
+    
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -20,8 +24,10 @@ require "../dados/medicos.php";
     <h1>Nossos médicos: </h1>
     <!--Aqui agnt vai ter que pegar o vetor de médicos e criar uma class para mostrar os médicos em "cards" mostrar a foto o nome e as descrições, não podendo ocupar a tela toda, colocar pelo menos 2 em cada parte da tela. (CRIAR CLASS CARD NO CSS TBM)-->
     <?php
-        for ($j=0; $j < 5; $j++,$i++) {
-            $mdcs = $medicos[$i]; 
+       // for ($j=0; $j < 5; $j++,$i++) {
+       //     $mdcs = $medicos[$i]; 
+       foreach($medicos as $mdcs){
+        if($mdcs["especialidade"] == $especialidade){
     ?>
     <div>
         <img src="<?=$mdcs["foto"]?>" alt="<?=$mdcs["nome"]?>">
@@ -31,7 +37,8 @@ require "../dados/medicos.php";
 		<a href="../index.php" class="link">Voltar</a>
     </div>
     <?php
-        }
+        } 
+    }
     ?>
 </body>
 </html>

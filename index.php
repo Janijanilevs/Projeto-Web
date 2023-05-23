@@ -34,18 +34,18 @@
                 <button><img src="img/busca.png"></button>
                 <select class="area" name="especialidade">
                     <option disabled selected value="">Qual especialidade você procura?</option>
-                    <option value="0">Cardiologia</option>
-                    <option value="5">Cirurgia Plastica</option>
-                    <option value="10">Nutrição</option>
-                    <option value="15">Ginecologia</option>
-                    <option value="20">Odontologia</option>
+                    <option value="Cardiologia">Cardiologia</option>
+                    <option value="Cirurgia">Cirurgia Plastica</option>
+                    <option value="Nutrição">Nutrição</option>
+                    <option value="Ginecologia">Ginecologia</option>
+                    <option value="Odontologia">Odontologia</option>
                 </select>
             </form>
             <img src="img/medicos.png" alt="médicos do Consulta+">
         </section>
 
         <section id="detalhes-empresa">
-            <h2 class="titdet">Quais são os benefícios da Consulta+?</h2>
+            <h3 class="titdet">Quais são os benefícios da Consulta+?</h3>
             <br>
             <div class="container-itens">
                 <article class="item">
@@ -144,7 +144,7 @@
         <div id="roda-1">
             <img src="img/logo-rodape.png" class="logo-rodape">
             <div class="wrapper">
-                
+
                 <div id="sub-e">
                     <h3>Especialidades</h3>
                     <p>Cardiologia</p>
