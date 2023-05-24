@@ -478,14 +478,6 @@ iframe{
     border: none;
 }
 
-
-
-
-
-
-
-
-
 /*---------Listagem de Medicos----------------------------------------------------------*/
 
 .med-lista{
@@ -505,3 +497,9 @@ iframe{
     border-radius: 100em;
 }
 
+#tit{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: Nunito;
+}
