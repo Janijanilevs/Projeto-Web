@@ -91,19 +91,19 @@
             <div class="prin-medicos">
                 <div id="posi-1">
                     <div class="med" id="med-1">
-                        <a href="paginas/listagem.php?especialidade=0"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=Cardiologia"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=0"><h4 class="mmed">Mais Medicos da área de Cardiologia</h4></a>
+                        <a href="paginas/listagem.php?especialidade=Cardiologia"><h4 class="mmed">Mais Medicos da área de Cardiologia</h4></a>
                     </div>
                     <?php
                       $m=$medicos[5];
                     ?>
                     <div class="med" id="med-2">
-                        <a href="paginas/listagem.php?especialidade=5"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=Cirurgia Plástica"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=5"><h4 class="mmed">Mais Medicos da área de Cirurgia Plastica</h4></a>
+                        <a href="paginas/listagem.php?especialidade=Cirurgia Plástica"><h4 class="mmed">Mais Medicos da área de Cirurgia Plastica</h4></a>
                     </div>
                 </div>
                 <div id="posi-2">
@@ -111,28 +111,28 @@
                       $m=$medicos[10];
                     ?>
                     <div class="med" id="med-3">
-                        <a href="paginas/listagem.php?especialidade=10"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=Nutrição"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=10"><h4 class="mmed">Mais Medicos da área de Nutrição</h4></a>
+                        <a href="paginas/listagem.php?especialidade=Nutrição"><h4 class="mmed">Mais Medicos da área de Nutrição</h4></a>
                     </div>
                     <?php
                       $m=$medicos[15];
                     ?>
                     <div class="med" id="med-4">
-                        <a href="paginas/listagem.php?especialidade=15"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=Ginecologia"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=15"><h4 class="mmed">Mais Medicos da área Ginecologia</h4></a>
+                        <a href="paginas/listagem.php?especialidade=Ginecologia"><h4 class="mmed">Mais Medicos da área Ginecologia</h4></a>
                     </div>
                     <?php
                       $m=$medicos[21];
                     ?>
                     <div class="med" id="med-5">
-                        <a href="paginas/listagem.php?especialidade=20"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
+                        <a href="paginas/listagem.php?especialidade=Odontologia"><img src="<?=$m["foto"]?>" alt="<?=$m["nome"]?>" class="img-mi"></a>
                         <h2><?=$m["nome"]?></h2>
                         <h3><?=$m["especialidade"]?></h3>
-                        <a href="paginas/listagem.php?especialidade=20"><h4 class="mmed">Mais Medicos da área de Odontologia</h4></a>
+                        <a href="paginas/listagem.php?especialidade=Odontologia"><h4 class="mmed">Mais Medicos da área de Odontologia</h4></a>
                     </div>
                 </div>
             </div>

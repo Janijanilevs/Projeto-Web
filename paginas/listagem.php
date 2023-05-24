@@ -18,6 +18,7 @@ require "../dados/medicos.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../estilos/estilo.css" rel="stylesheet">
     <title>Consulta+</title>
 </head>
 <body>
@@ -29,16 +30,21 @@ require "../dados/medicos.php";
        foreach($medicos as $mdcs){
         if($mdcs["especialidade"] == $especialidade){
     ?>
-    <div>
-        <img src="<?=$mdcs["foto"]?>" alt="<?=$mdcs["nome"]?>">
-		<h3><?=$mdcs["nome"]?></h3>
-		<h4><?=$mdcs["especialidade"]?></h4>
-		<p><?=$mdcs["formação"]?></p>
-		<a href="../index.php" class="link">Voltar</a>
+    <div class="med-lista">
+        <div class="med-img-lista">
+            <img src="<?=$mdcs["foto"]?>" alt="<?=$mdcs["nome"]?>" class="img-li">
+        </div>
+        <div class="info-med">
+            <h2><?=$mdcs["nome"]?></h2>
+            <h3><?=$mdcs["especialidade"]?></h3>
+            <p><?=$mdcs["formação"]?></p>
+        </div>
+        <a href="contato.php"><h4>Realizar Agendamento</h4></a>
     </div>
     <?php
         } 
     }
     ?>
+    <a href="../index.php" class="link">Voltar</a>
 </body>
 </html>
