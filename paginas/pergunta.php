@@ -21,6 +21,39 @@
             </ul>
         </nav>
     </header>
+    <main>
+    <article class="conteudo">
+           
+           <form method="post" action="">
+           <fieldset>
+               <legend>Entre em contato conosco</legend>
+               
+               <div class="campo">
+                   <label>Nome</label>
+                   <input type="text" name="nome">
+               
+               </div>
+               <div class="campo">
+                   <label>E-mail</label>
+                   <input type="email" name="email">
+               
+               </div>
+               <div class="campo">
+                   <label>Mande sua Dúvida</label>
+                   <textarea name="mensagem"></textarea>
+               
+               </div>
+               <div class="campo">
+                  <button type="submit">Enviar</button>
+               </div>
+   
+               </fieldset>
+           
+           </form>
+ 
+       </article>
+
+    </main>
     <footer id="rodape">
         <div id="roda-1">
             <img src="../img/logo-rodape.png" class="logo-rodape">

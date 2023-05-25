@@ -234,7 +234,7 @@ main {
     height: 60px;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    margin: auto;
     transition: 2s;
 }
 
@@ -275,7 +275,9 @@ main {
     font-size: 20px;
 }
 
-.item-extra h2, .item-extra h3, .item-extra h4{
+.item-extra h2,
+.item-extra h3,
+.item-extra h4 {
     margin-top: 15px;
     font-size: 35px;
 }
@@ -303,7 +305,7 @@ main {
     font-size: 30px;
     margin-top: 1ch;
     height: 30%;
-    border-radius:10px;
+    border-radius: 10px;
     transition: .1s;
 }
 
@@ -314,7 +316,7 @@ main {
 #principais-medicos {
     height: 248vh;
     padding-top: 7%;
-   /* background: rgb(0,255,244);background: linear-gradient(180deg, rgba(0,255,244,1) 0%, rgba(0,255,244,1) 85%, rgba(13,7,102,1) 100%);*/
+    /* background: rgb(0,255,244);background: linear-gradient(180deg, rgba(0,255,244,1) 0%, rgba(0,255,244,1) 85%, rgba(13,7,102,1) 100%);*/
 }
 
 #principais-medico>div {
@@ -381,7 +383,7 @@ main {
     transition: 0.3s;
 }
 
-.med a :hover{
+.med a :hover {
     color: rgb(14, 231, 130);
     background-color: #0e75b1;
     transform: scale(1.03);
@@ -411,30 +413,28 @@ main {
 
 /*-------------------------Parte do rodapé---------------------------------------------------------------------------------*/
 
-
-
 #rodape {
     height: 90vh;
     margin-top: 400px;
 }
 
-#roda-1{
+#roda-1 {
     background-color: rgb(13, 7, 102);
     height: 80%;
     display: grid;
 }
-.wrapper{
+
+.wrapper {
     display: grid;
     grid-template-columns: 200px 200px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
-#roda-2{
+#roda-2 {
     background-color: rgb(10, 5, 74);
     height: 20%;
     text-align: center;
 }
-
 
 .ui-minha-autoral {
     color: rgb(255, 255, 255);
@@ -442,73 +442,78 @@ main {
 }
 
 
-
-
 /*---------Parte dos contatos----------------------------------------------------------*/
-#form{
+
+#form {
     height: 20%;
 }
-#contato{
+
+#contato {
     width: 90vw;
     height: 80vh;
     padding: 2%;
     background-color: rgb(1, 7, 88);
-    border: 2px solid ;
+    border: 2px solid;
     border-radius: 2%;
     margin: auto;
-    color:rgb(122, 140, 137);
+    color: rgb(122, 140, 137);
 }
-#titulo{
+
+#titulo {
     text-align: center;
-    color:rgb(14, 19, 68);
+    color: rgb(14, 19, 68);
     font-size: 50px;
 }
-#contato h1{
-    color:rgb(122, 140, 137);
+
+#contato h1 {
+    color: rgb(122, 140, 137);
     text-align: center;
 }
-iframe{
+
+iframe {
     margin-top: 80px;
     width: 100%;
 }
-#sexo{
+
+#sexo {
     border: none;
 }
-#procedimento{
+
+#procedimento {
     border: none;
 }
+
 
 /*---------Listagem de Medicos----------------------------------------------------------*/
 
-
-#tit{
+#tit {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     font-family: Nunito;
 }
 
-.med-lista{
+.med-lista {
     height: 50vh;
     margin: 8% 3%;
     display: flex;
     border-radius: 20px;
     transition: .3s;
 }
-.med-lista:hover{
+
+.med-lista:hover {
     transform: scale(1.01);
     box-shadow: 0px 0px 20px 1px rgb(113, 211, 224);
 }
 
-.med-img-lista{
+.med-img-lista {
     width: 30vw;
-    
 }
 
-.img-li{
+.img-li {
     height: 100%;
     width: 30vw;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 100em;
     transition: .5s;
 }
@@ -517,24 +522,21 @@ iframe{
     transform: scale(1.05);
 }
 
-#identi{
-    margin-left:100px;
+#identi {
+    margin-left: 100px;
 }
 
-#formacao{
+#formacao {
     margin-right: 120px;
 }
 
-.info-med{
+.info-med {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-
-
-
-#agendamento{
+#agendamento {
     height: 100%;
     width: 15%;
     text-decoration: none;
@@ -547,24 +549,81 @@ iframe{
     align-items: center;
     transition: width .5s;
 }
-#agendamento:hover{
+
+#agendamento:hover {
     width: 18%;
     background-color: rgb(17, 142, 214);
 }
-#faq{
+
+#faq {
     margin-left: 30px;
     margin-top: 10px;
-    width: 500px;;
-} 
+    width: 500px;
+    ;
+}
 
-
-
-#voltar{
+#voltar {
     width: 300px;
     margin-left: 30px;
     background-color: rgb(30, 164, 241);
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: Nunito;
+}
 
+.conteudo form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.conteudo fieldset {
+    border: 4px solid rgb(85, 85, 85);
+    text-indent: 0;
+    border-radius: 25px;
+    margin: 50px;
+    margin-bottom: 140px;
+}
+
+.conteudo legend {
+    font-size: 27px;
+}
+
+.conteudo legend {
+    color: black;
+    padding: 15px;
+}
+
+.conteudo .campo {
+    margin: 10px;
+}
+
+.conteudo input,
+.conteudo textarea {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+}
+
+.conteudo textarea {
+    height: 250px;
+}
+
+.conteudo label {
+    font-size: 24px;
+}
+
+.conteudo button {
+    padding: 20px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.conteudo button:hover {
+    background-color: DarkGray;
 }
