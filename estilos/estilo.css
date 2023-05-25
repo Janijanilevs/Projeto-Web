@@ -516,6 +516,7 @@ iframe{
 }
 #agendamento{
     height: 100%;
+    width: 15%;
     text-decoration: none;
     background-color: rgb(30, 164, 241);
     font-family: Nunito;
@@ -524,10 +525,11 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .4s;
+    transition: width .5s;
 }
 #agendamento:hover{
-    transform: translateX(-20px);
+    width: 18%;
+    background-color: rgb(17, 142, 214);
 }
 #faq{
     margin-left: 30px;

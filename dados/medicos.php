@@ -155,7 +155,7 @@ $medicos =[
     [
       "nome" => "Murilo Araujo",
       "especialidade" => "Odontologia",
-      "foto" => "../../Projeto-Web/img/medicos/muriloaraujo.jpg",
+      "foto" => "../../Projeto-Web/img/medicos/muriloaraujo_card.jpg",
       "formação" => "Formado em Odontologia pela UFOB, com sua especialidade Periodontia, cuidando sua gengiva e tratar de problemas como gengivite, placas bacterianas, periodontite."
     ],
 
