@@ -54,13 +54,13 @@ require "../dados/medicos.php";
             <h3><?=$mdcs["especialidade"]?></h3>
             <p><?=$mdcs["formação"]?></p>
         </div>
-        <a href="contato.php"><h4>Realizar Agendamento</h4></a>
+        <a href="contato.php" id="agendamento"><h4>Realizar Agendamento</h4></a>
     </div>
     <?php
         } 
     }
     ?>
-    <a href="../index.php" class="link">Voltar</a>
+    <a href="../index.php" id="voltar">Voltar</a>
     <footer id="rodape">
         <div id="roda-1">
             <img src="../img/logo-rodape.png" class="logo-rodape">
