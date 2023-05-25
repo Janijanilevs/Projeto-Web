@@ -26,7 +26,7 @@
            
            <form method="post" action="">
            <fieldset>
-               <legend>Entre em contato conosco</legend>
+               <legend>Realize Sua Dúvida</legend>
                
                <div class="campo">
                    <label>Nome</label>
