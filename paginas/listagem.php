@@ -23,7 +23,7 @@ require "../dados/medicos.php";
 </head>
 <body> 
     <header id="topo">
-        <a href="index.php" class="logo-site">Consulta+</a>
+        <a href="../index.php" class="logo-site">Consulta+</a>
         <div class="botao">
             <a href="" class="botao-cadastro-login">Entrar/Cadastrar<a>
         </div>
