@@ -50,9 +50,13 @@ require "../dados/medicos.php";
             <img src="<?=$mdcs["foto"]?>" alt="<?=$mdcs["nome"]?>" class="img-li">
         </div>
         <div class="info-med">
-            <h2><?=$mdcs["nome"]?></h2>
-            <h3><?=$mdcs["especialidade"]?></h3>
-            <p><?=$mdcs["formação"]?></p>
+            <div id="identi">
+                <h2><?=$mdcs["nome"]?></h2>
+                <h3><?=$mdcs["especialidade"]?></h3>
+            </div>
+            <div id="formacao">
+                <p><?=$mdcs["formação"]?></p>
+            </div>
         </div>
         <a href="contato.php" id="agendamento"><h4>Realizar Agendamento</h4></a>
     </div>

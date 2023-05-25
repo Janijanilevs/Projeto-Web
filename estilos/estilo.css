@@ -480,6 +480,14 @@ iframe{
 
 /*---------Listagem de Medicos----------------------------------------------------------*/
 
+
+#tit{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: Nunito;
+}
+
 .med-lista{
     height: 50vh;
     margin: 8% 3%;
@@ -492,28 +500,40 @@ iframe{
     box-shadow: 0px 0px 20px 1px rgb(113, 211, 224);
 }
 
+.med-img-lista{
+    width: 30vw;
+    
+}
+
 .img-li{
     height: 100%;
     width: 30vw;
     object-fit:cover;
     border-radius: 100em;
+    transition: .5s;
 }
 
-#tit{
+.img-li:hover {
+    transform: scale(1.05);
+}
+
+#identi{
+    margin-left:100px;
+}
+
+#formacao{
+    margin-right: 120px;
+}
+
+.info-med{
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    font-family: Nunito;
+    justify-content: space-around;
+    align-items: center;
 }
-#voltar{
-    width: 300px;
-    margin-left: 30px;
-    background-color: rgb(30, 164, 241);
-    text-decoration: none;
-    color:rgb(0, 0, 0);
-    font-family: Nunito;
 
-}
+
+
+
 #agendamento{
     height: 100%;
     width: 15%;
@@ -536,3 +556,15 @@ iframe{
     margin-top: 10px;
     width: 500px;;
 } 
+
+
+
+#voltar{
+    width: 300px;
+    margin-left: 30px;
+    background-color: rgb(30, 164, 241);
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: Nunito;
+
+}
