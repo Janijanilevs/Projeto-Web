@@ -7,7 +7,7 @@ $medicos =[
     [
         "nome" => "Maria Eduarda",
         "especialidade" => "Cardiologia",
-        "foto" => "https://i.pinimg.com/564x/d8/5e/e3/d85ee30b6325832d17c8f04456cb899c.jpg",
+        "foto" =>"../../Projeto-Web/img/medicos/madu_card.jpg",
         "formação" => "Formada em medicina pela UFRJ,com ela você poderá checar se o seu coração está em ótimas condições, especializada em Ecocardiografia, Miocardiopatias, Hemodinâmica."
     ],
 
