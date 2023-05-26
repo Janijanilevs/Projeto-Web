@@ -63,25 +63,26 @@
                 <br>
                 <br>
                     <fieldset id="procedimento">Escolha a área desejada:
-                        <input type="checkbox" name="area" value="cardiologia" id="">
-                            <label for="ort">Cardiologia</label>
-                        <input type="checkbox" name="area" value="cirurgia plástica" id="">
-                            <label for="end">Cirurgia Plástica</label>
-                        <input type="checkbox" name="area" value="odontologia" id="">
-                            <label for="impla">Odontologia</label>
-                        <input type="checkbox" name="area" value="nutricao" id="">
-                            <label for="ciroral">Nutrição</label>
+                        <input type="checkbox" name="area" value="cardiologia" id="card">
+                            <label for="card">Cardiologia</label>
+                        <input type="checkbox" name="area" value="cirurgia plástica" id="cirplast">
+                            <label for="cirplast">Cirurgia Plástica</label>
+                        <input type="checkbox" name="area" value="odontologia" id="odonto">
+                            <label for="odonto">Odontologia</label>
+                        <input type="checkbox" name="area" value="nutricao" id="nutri">
+                            <label for="nutri">Nutrição</label>
+                        <input type="checkbox" name="area" value="ginecologia" id="gineco">
+                            <label for="nutri">Ginecologia</label>
+                        
                         <br>
                         <br>
-                        <button>
+                        <button id="enviar">
                         Enviar
                         </button>
                 </fieldset>
                 </form>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5238.366521746993!2d-41.67079110681922!3d-14.190200273592787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7444945747073df%3A0x92eb6e102614e91c!2sIFBA%20Campus%20Brumado!5e0!3m2!1spt-BR!2sbr!4v1684762980002!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div id="top"><!--Logo da clínica-->
-                    <a href="../index.php"><img src="../img/logo-site.png"></a>
-                </div>
+
                 </main>
                 <footer id="rodape">
         <div id="roda-1">

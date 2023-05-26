@@ -176,7 +176,7 @@ $medicos =[
     [
       "nome" => "Manuela Araujo",
       "especialidade" => "Odontologia",
-      "foto" => "https://i.pinimg.com/736x/b2/98/19/b29819377d5ffc24be8729e27f343082.jpg",
+      "foto" => "../../Projeto-Web/img/medicos/manuelaaraujo_card.jpg",
       "formação" => "Formada em odontologia pela SANTO AUGOSTINHO, com sua especialidade Estomatologia, diagnosticando lesões dentro e fora da cavidade bucal, podendo ou não realizar cirurgias."
     ],
 
