@@ -91,7 +91,7 @@ $medicos =[
       [
         "nome" => "Jonathan Ribeiro",
         "especialidade" => "Nutrição",
-        "foto" => "../../Projeto-Web/img/medicos/adalberto_card.jpg",
+        "foto" => "../../Projeto-Web/img/medicos/jonhatan_card.jpg",
         "formação" => "Formada em nutrição pela UFOP, com sua especialidade nutrição familiar, fazendo com que a família se adeque a um novo estilo de alimentar, mais saudável, causando menos traumas"
       ],
 

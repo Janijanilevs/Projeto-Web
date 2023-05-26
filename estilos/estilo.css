@@ -536,19 +536,40 @@ iframe {
     transform: scale(1.05);
 }
 
-#identi {
-    margin-left: 100px;
-}
-
-#formacao {
-    margin-right: 120px;
-}
-
 .info-med {
+    width: 90%;
+    height: 80%;
+    font-family: Nunito;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+#identi {
+    margin: 0px 0px 0px 2%;
+    font-size: 18px;
+    height: 100%;
+}
+
+#identi h2{
+    margin-top: 40%;
+    margin-bottom: 10%;
+}
+
+#identi h3{
+    margin-top: 20%;
+}
+
+#formacao {
+    width: 40%;
+    height: 100%;
+    margin: 40% 20px 40% 20px;
+    font-size: 22px;
+    line-height: 2;
+    text-align: center;
+}
+
+
 
 #agendamento {
     height: 100%;
@@ -570,15 +591,35 @@ iframe {
 }
 
 
+#div-voltar{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #voltar {
-    width: 300px;
-    margin-left: 30px;
+    width: 25%;
+    height: 45%;
     background-color: rgb(30, 164, 241);
     text-decoration: none;
     color: rgb(0, 0, 0);
+    border-radius: 10rem;
     font-family: Nunito;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
 }
+
+#voltar:hover{
+    width: 40%;
+    height: 50%;
+    font-size: 45px;
+}
+
 
 
 

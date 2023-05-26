@@ -53,11 +53,12 @@ require "../dados/medicos.php";
             </div>
             <div class="info-med">
                 <div id="identi">
-                    <h2><?=$mdcs["nome"]?></h2>
-                    <h3><?=$mdcs["especialidade"]?></h3>
+                    <h2>Nome: <?=$mdcs["nome"]?></h2>
+                    <h3>Especialidade: <?=$mdcs["especialidade"]?></h3>
                 </div>
                 <div id="formacao">
-                    <p><?=$mdcs["formação"]?></p>
+                    <h3>Formação</h3>
+                    <p><i>"<?=$mdcs["formação"]?>"</i></p>
                 </div>
             </div>
             <a href="contato.php" id="agendamento"><h4>Realizar Agendamento</h4></a>
@@ -66,7 +67,9 @@ require "../dados/medicos.php";
             } 
         }
         ?>
-        <a href="../index.php" id="voltar">Voltar</a>
+        <div id="div-voltar">
+            <a href="../index.php" id="voltar">Voltar</a>
+        </div>
     </main>
     <footer id="rodape">
         <div id="roda-1">
