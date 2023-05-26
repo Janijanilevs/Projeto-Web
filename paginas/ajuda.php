@@ -37,7 +37,7 @@
     </main>    
     <footer id="rodape">
         <div id="roda-1">
-            <img src="img/logo-rodape.png" class="logo-rodape">
+            <img src="../img/logo-rodape.png" class="logo-rodape">
             <div class="wrapper">
 
                 <div id="sub-e">

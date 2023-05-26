@@ -24,32 +24,32 @@
     <main>
     <article class="conteudo">
            
-           <form method="post" action="">
-           <fieldset>
-               <legend>Realize Sua Dúvida</legend>
-               
-               <div class="campo">
-                   <label>Nome</label>
-                   <input type="text" name="nome">
-               
-               </div>
-               <div class="campo">
-                   <label>E-mail</label>
-                   <input type="email" name="email">
-               
-               </div>
-               <div class="campo">
-                   <label>Mande sua Dúvida</label>
-                   <textarea name="mensagem"></textarea>
-               
-               </div>
-               <div class="campo">
-                  <button type="submit">Enviar</button>
-               </div>
-   
-               </fieldset>
+            <form method="post" action="">
+                <fieldset>
+                    <legend>Realize Sua Dúvida</legend>
+                    
+                    <div class="campo">
+                        <label>Nome</label>
+                        <input type="text" name="nome">
+                    
+                    </div>
+                    <div class="campo">
+                        <label>E-mail</label>
+                        <input type="email" name="email">
+                    
+                    </div>
+                    <div class="campo">
+                        <label>Mande sua Dúvida</label>
+                        <textarea name="mensagem"></textarea>
+                    
+                    </div>
+                    <div class="campo">
+                        <button type="submit">Enviar</button>
+                    </div>
+        
+                    </fieldset>
            
-           </form>
+            </form>
  
        </article>
 

@@ -35,36 +35,39 @@ require "../dados/medicos.php";
             </ul>
         </nav>
     </header>
-    <div id="tit">
-        <h2>Nossos médicos:</h2>
-    </div>
-    <!--Aqui agnt vai ter que pegar o vetor de médicos e criar uma class para mostrar os médicos em "cards" mostrar a foto o nome e as descrições, não podendo ocupar a tela toda, colocar pelo menos 2 em cada parte da tela. (CRIAR CLASS CARD NO CSS TBM)-->
-    <?php
-       // for ($j=0; $j < 5; $j++,$i++) {
-       //     $mdcs = $medicos[$i]; 
-       foreach($medicos as $mdcs){
-        if($mdcs["especialidade"] == $especialidade){
-    ?>
-    <div class="med-lista">
-        <div class="med-img-lista">
-            <img src="<?=$mdcs["foto"]?>" alt="<?=$mdcs["nome"]?>" class="img-li">
+    <main id="main-list">
+        <div id="tit">
+            <h2>Nossos médicos:</h2>
         </div>
-        <div class="info-med">
-            <div id="identi">
-                <h2><?=$mdcs["nome"]?></h2>
-                <h3><?=$mdcs["especialidade"]?></h3>
+        
+        <!--Aqui agnt vai ter que pegar o vetor de médicos e criar uma class para mostrar os médicos em "cards" mostrar a foto o nome e as descrições, não podendo ocupar a tela toda, colocar pelo menos 2 em cada parte da tela. (CRIAR CLASS CARD NO CSS TBM)-->
+        <?php
+        // for ($j=0; $j < 5; $j++,$i++) {
+        //     $mdcs = $medicos[$i]; 
+        foreach($medicos as $mdcs){
+            if($mdcs["especialidade"] == $especialidade){
+        ?>
+        <div class="med-lista">
+            <div class="med-img-lista">
+                <img src="<?=$mdcs["foto"]?>" alt="<?=$mdcs["nome"]?>" class="img-li">
             </div>
-            <div id="formacao">
-                <p><?=$mdcs["formação"]?></p>
+            <div class="info-med">
+                <div id="identi">
+                    <h2><?=$mdcs["nome"]?></h2>
+                    <h3><?=$mdcs["especialidade"]?></h3>
+                </div>
+                <div id="formacao">
+                    <p><?=$mdcs["formação"]?></p>
+                </div>
             </div>
+            <a href="contato.php" id="agendamento"><h4>Realizar Agendamento</h4></a>
         </div>
-        <a href="contato.php" id="agendamento"><h4>Realizar Agendamento</h4></a>
-    </div>
-    <?php
-        } 
-    }
-    ?>
-    <a href="../index.php" id="voltar">Voltar</a>
+        <?php
+            } 
+        }
+        ?>
+        <a href="../index.php" id="voltar">Voltar</a>
+    </main>
     <footer id="rodape">
         <div id="roda-1">
             <img src="../img/logo-rodape.png" class="logo-rodape">

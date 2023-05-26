@@ -486,11 +486,25 @@ iframe {
 
 /*---------Listagem de Medicos----------------------------------------------------------*/
 
+#main-list{
+    height: 330vh;
+}
+
 #tit {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin: 100px 30% 0px 30%;
     font-family: Nunito;
+    font-size: 30px;
+    border: 5px inset rgb(14, 17, 247);
+    background-color: rgb(161, 243, 232);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+#tit:hover{
+    margin-top: 90px;
+    border: 10px inset rgb(14, 17, 247);
 }
 
 .med-lista {
@@ -555,12 +569,7 @@ iframe {
     background-color: rgb(17, 142, 214);
 }
 
-#faq {
-    margin-left: 30px;
-    margin-top: 10px;
-    width: 500px;
-    ;
-}
+
 
 #voltar {
     width: 300px;
@@ -570,6 +579,13 @@ iframe {
     color: rgb(0, 0, 0);
     font-family: Nunito;
 }
+
+
+
+
+/*----------------------------------Pergunta.php Tirar Duvidas-------------------------------------------*/
+
+
 
 .conteudo form {
     width: 70%;
@@ -626,4 +642,17 @@ iframe {
 
 .conteudo button:hover {
     background-color: DarkGray;
+}
+
+
+
+
+/*-----------------------------------Ajuda.php Perguntas---------------------*/
+
+#faq {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 500px;
+    height: 5px;
+    font-family: Nunito;
 }
