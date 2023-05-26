@@ -15,7 +15,7 @@
     <header id="topo">
         <a href="index.php" class="logo-site">Consulta+</a>
         <div class="botao">
-            <a href="" class="botao-cadastro-login">Entrar/Cadastrar<a>
+            <a href="paginas/contato.php" class="botao-cadastro-login">Entrar/Cadastrar<a>
         </div>
         <nav id="menu">
             <ul>
