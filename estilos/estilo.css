@@ -464,6 +464,7 @@ main {
 #app h4{
     color: rgb(255, 255, 255);
     text-align: center;
+    font-family: Nunito;
 }
 
 #app img{
@@ -520,7 +521,7 @@ main {
 /*---------Parte dos contatos----------------------------------------------------------*/
 
 #form {
-    height: 20%;
+    height: 150vh;
 }
 
 #contato {
@@ -702,6 +703,9 @@ iframe {
 /*----------------------------------Pergunta.php Tirar Duvidas-------------------------------------------*/
 
 
+#main-perg{
+    height: 50vh;
+}
 
 .conteudo form {
     width: 70%;
