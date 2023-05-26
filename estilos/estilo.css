@@ -413,9 +413,9 @@ main {
 
 /*-------------------------Parte do rodapé---------------------------------------------------------------------------------*/
 
-#rodape {
+.rodape {
     height: 80vh;
-    margin-top: 400px;
+    margin-top: 25%;
 }
 
 #roda-1 {
@@ -778,14 +778,17 @@ iframe {
 /*-----------------------------------Ajuda.php Perguntas---------------------*/
 
 .faq {
-    margin: 20px 30px;  
+    margin: 5% 4%;  
     width: 90vw;
-    height: 80vh;
+    height: 50vh;
     padding: 2%;
     background-color:rgb(122, 140, 137);;
     border: 2px solid rgb(1, 7, 88);
     border-radius: 2%;
     color: rgb(1, 7, 88);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .faq.title{
     width: 100%;
@@ -795,11 +798,12 @@ iframe {
 .faq-question {
     margin-top: 5px;
     color:rgb(0, 0, 0)
-  }
+}
 
-
-
-
+#roda-ajuda{
+    margin-top: 8%;
+}
+  
 
 
 

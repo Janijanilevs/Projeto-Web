@@ -29,12 +29,12 @@
              <p>Isso vai depender das agendas de nossos médicos, e das datas disponíveis</p>
         <div class="faq-question"><h4>O que devo levar comigo para uma consulta médica?</h4></div>
             <p>Deve levar somente seus documentos pessoais,se tiver exames anteriores é de bom hábito para o médico ver a linha do tempo do seu problema</p></div>
-        <div class="faq-question"><h4>Como faço para cancelar ou reagendar uma consulta médica?</h4>
+        <div class="faq-question"><h4>Como faço para cancelar ou reagendar uma consulta médica?</h4></div>
            <p>Para reagendar a consulta, basta você enviar um email para consulta+@gmail.com, e ver as novas datas disponíveis</p>
         <div class="faq-question"><h4>Quais são as opções de pagamento para consultas médicas?</h4></div>
             <p>Trabalhamos com todos os tipos de pagamentos como cartão de ddébito e crédito, dinheiro à vista,pix, boleto e cheque.</p>
     </main>    
-    <footer id="rodape">
+    <footer class="rodape" id="roda-ajuda">
         <div id="roda-1">
             <img src="../img/logo-rodape.png" class="logo-rodape">
             <div class="wrapper">

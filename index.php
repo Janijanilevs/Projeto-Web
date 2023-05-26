@@ -140,7 +140,7 @@
     
     </main>
 
-    <footer id="rodape">
+    <footer class="rodape">
         <div id="roda-1">
             <img src="img/logo-rodape.png" class="logo-rodape">
             <div class="wrapper">
